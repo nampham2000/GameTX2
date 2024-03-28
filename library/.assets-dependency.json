@@ -53,10 +53,28 @@
     ],
     "/Users/waostudio/Desktop/GameTx12/assets/Animation/Dice/dice.plist": [
       "/Users/waostudio/Desktop/GameTx12/assets/Animation/Dice/dice.png"
+    ],
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\dice.plist": [
+      "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\dice.png"
+    ],
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-1.fnt": [
+      "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-1.png"
+    ],
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-2.fnt": [
+      "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-1.png"
+    ],
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\sicbo-font.fnt": [
+      "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\sicbo-font.png"
+    ],
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\coin.plist": [
+      "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\coin.png"
     ]
   },
   "uuid": {
     "/Users/waostudio/Desktop/GameTx12/assets/Matiral/material.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4"
+    ],
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral\\material.mtl": [
       "c8f66d17-351a-48da-a12c-0212d28575c4"
     ]
   }

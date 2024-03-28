@@ -409,6 +409,8 @@ export class GameC extends Component {
   })
   private AudioController: AudioController;
 
+
+
   private totalUserBetUnder: number = 0;
   private totalUserBetOver: number = 0;
   private totalBetOver: number = 0;
@@ -455,8 +457,25 @@ export class GameC extends Component {
   private ramdomDice: number[] = [];
   private loggedInUsername;
   private offMusic: boolean = true;
+  numPrefabsCreated=0;
 
   private lineGraphicsArray: Graphics[] = [];
+
+  @property(Node)
+  pref:Node
+
+
+
+  @property(Prefab)
+  private Over: Prefab = null;
+
+  @property(Prefab)
+  private Under: Prefab = null;
+
+  private numRows: number = 6;
+  private numCols: number = 20;
+  private cellSize: number = 50; // Kích thước mỗi ô
+  private grid: Node[][] = [];
   start() {
     this.loggedInUsername = window["loggedInUsername"];
     const userInfo = this.getUsernameAndBalanceFromLocalStorage(
@@ -467,6 +486,11 @@ export class GameC extends Component {
       this.balanceUser = userInfo.balance;
     }
     this.AudioController.onAudio(2);
+
+
+    // this.createGrid();
+
+
     this.listButton = [
       this.value1k,
       this.value10k,
@@ -545,6 +569,42 @@ export class GameC extends Component {
     // this.handleEvent();
     // input.on(Input.EventType.KEY_DOWN,this.onKeyDown,this);
   }
+  
+  createGrid() {
+    if (this.numPrefabsCreated >= this.numRows * this.numCols) {
+        return;
+    }
+    const col = Math.floor(this.numPrefabsCreated / this.numRows);
+    const row = this.numPrefabsCreated % this.numRows;
+
+    if (!this.grid[row]) {
+        this.grid[row] = [];
+    }
+
+    let prefabType = (this.sum <= 10) ? this.Under : this.Over; 
+    const cell = instantiate(prefabType);
+    cell.parent = this.pref;
+    cell.setPosition(new Vec3(col * this.cellSize, (this.numRows - 1 - row) * this.cellSize, 0));
+    this.grid[row].push(cell);
+    this.numPrefabsCreated++;
+
+    if (col === this.numCols - 1) {
+        this.numPrefabsCreated += this.numRows - 1;
+    }
+}
+
+// onMouseDown(event: EventTouch) {
+//   const col = Math.floor(pos.x / this.cellSize);
+//   const row = Math.floor(-pos.y / this.cellSize); // Y là ngược nên sử dụng -pos.y
+
+//   if (col >= 0 && col < this.numCols && row >= 0 && row < this.numRows) {
+//       const cell = instantiate(this.cellPrefab);
+//       cell.parent = this.node;
+//       cell.setPosition(new Vec3(col * this.cellSize, -row * this.cellSize, 0)); // Y là ngược nên sử dụng -row * cellSize
+//       this.grid[row][col] = cell;
+//   }
+// }
+
 
   update(deltaTime: number) {
     this.BalanceNumber.string = this.balanceUser.toString();
@@ -686,6 +746,7 @@ export class GameC extends Component {
           this.plate.getComponent(Animation).off(Animation.EventType.FINISHED);
 
           if (this.sum < 10) {
+            this.createGrid();
             this.updateResults(0);
             this.displayImagesResult();
             this.updateResultsHistory(0);
@@ -716,6 +777,7 @@ export class GameC extends Component {
               console.log("Cập nhật balance thất bại!");
             }
           } else {
+            this.createGrid();
             this.updateResults(1);
             this.displayImagesResult();
             this.updateResultsHistory(1);
@@ -788,8 +850,8 @@ export class GameC extends Component {
         } else {
           this.scheduleRandomDice();
         }
-      }, 15000);
-    }, 40000);
+      }, 1500);
+    }, 4000);
   }
   private getRandomValues() {
     const indices = [1, 2, 3, 4, 5, 6];

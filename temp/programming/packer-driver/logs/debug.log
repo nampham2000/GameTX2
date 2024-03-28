@@ -1,184 +1,1056 @@
-17:05:00 debug: 3/28/2024, 5:05:00 PM
-17:05:00 debug: Project: /Users/waostudio/Desktop/GameTx12
-17:05:00 debug: Targets: editor,preview
-17:05:00 debug: Incremental file seems great.
-17:05:00 debug: Engine path: /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
-17:05:00 debug: Initializing target [Editor]
-17:05:00 debug: Loading cache
-17:05:00 debug: Loading cache costs 1.7856249995529652ms.
-17:05:00 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
-17:05:00 debug: Our import map(foo:/bar): {
+23:57:08 debug: 3/28/2024, 11:57:08 PM
+23:57:08 debug: Project: C:\Users\Admin\Desktop\Gametx2
+23:57:08 debug: Targets: editor,preview
+23:57:08 debug: Incremental file seems great.
+23:57:08 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+23:57:08 debug: Initializing target [Editor]
+23:57:08 debug: Loading cache
+23:57:08 debug: Loading cache costs 24.937399983406067ms.
+23:57:08 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+23:57:08 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-17:05:00 debug: Initializing target [Preview]
-17:05:00 debug: Loading cache
-17:05:00 debug: Loading cache costs 1.391625002026558ms.
-17:05:00 debug: Our import map(foo:/bar): {
+23:57:08 debug: Initializing target [Preview]
+23:57:08 debug: Loading cache
+23:57:08 debug: Loading cache costs 18.103499948978424ms.
+23:57:08 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-17:05:00 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
-17:05:00 debug: Reset databases. Enumerated domains: [
+23:57:08 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+23:57:08 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
-    "physical": "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets"
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets"
   },
   {
     "root": "db://assets/",
-    "physical": "/Users/waostudio/Desktop/GameTx12/assets"
+    "physical": "C:\\Users\\Admin\\Desktop\\Gametx2\\assets"
   }
 ]
-17:05:00 debug: Our import map(foo:/bar): {
+23:57:08 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
-    "db://internal/": "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/waostudio/Desktop/GameTx12/assets/"
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/Admin/Desktop/Gametx2/assets/"
   }
 }
-17:05:00 debug: Our import map(foo:/bar): {
+23:57:08 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
-    "db://internal/": "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/",
-    "db://assets/": "file:///Users/waostudio/Desktop/GameTx12/assets/"
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///C:/Users/Admin/Desktop/Gametx2/assets/"
   }
 }
-17:05:00 debug: Pulling asset-db.
-17:05:00 debug: Fetch asset-db cost: 6.666583999991417ms.
-17:05:00 debug: Build iteration starts.
+23:57:08 debug: Pulling asset-db.
+23:57:08 debug: Fetch asset-db cost: 12.95030003786087ms.
+23:57:08 debug: Build iteration starts.
 Number of accumulated asset changes: 5
 Feature changed: false
-17:05:00 debug: Target(editor) build started.
-17:05:00 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/x/cc
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-17:05:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:17:17 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/x/prerequisite-imports
-17:05:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-17:05:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts.
-17:05:00 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
-17:05:00 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 28 2024 09:44:25 GMT+0700 (Indochina Time), Current mtime: Thu Mar 28 2024 17:04:54 GMT+0700 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/code-quality/cr.mjs
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve ./Audio/AudioController from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts.
-17:05:00 debug: Target(editor) ends with cost 67.99829199910164ms.
-17:05:00 debug: Target(preview) build started.
-17:05:00 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:06 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/x/cc
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-17:05:00 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-17:05:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 15:17:17 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/x/prerequisite-imports
-17:05:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-17:05:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts.
-17:05:00 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
-17:05:00 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 28 2024 09:44:25 GMT+0700 (Indochina Time), Current mtime: Thu Mar 28 2024 17:04:54 GMT+0700 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/code-quality/cr.mjs
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve cc from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as cce:/internal/x/cc.
-17:05:00 debug: Resolve ./Audio/AudioController from file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts.
-17:05:00 debug: Target(preview) ends with cost 52.68912499770522ms.
-17:05:00 debug: Pulling asset-db.
-17:05:00 debug: Fetch asset-db cost: 326.2309579998255ms.
-17:05:00 debug: Build iteration starts.
+23:57:08 debug: Target(editor) build started.
+23:57:08 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:05 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:24 GMT+0700 (Indochina Time)
+23:57:08 debug: Inspect cce:/internal/x/cc
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+23:57:09 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+23:57:09 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:05 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:25 GMT+0700 (Indochina Time)
+23:57:09 debug: Inspect cce:/internal/x/prerequisite-imports
+23:57:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+23:57:09 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+23:57:09 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+23:57:09 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+23:57:09 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
+23:57:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+23:57:09 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+23:57:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+23:57:10 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 28 2024 17:04:54 GMT+0700 (Indochina Time), Current mtime: Thu Mar 28 2024 23:56:43 GMT+0700 (Indochina Time)
+23:57:10 debug: Inspect cce:/internal/code-quality/cr.mjs
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+23:57:10 debug: Target(editor) ends with cost 1165.0626999735832ms.
+23:57:10 debug: Target(preview) build started.
+23:57:10 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 07:00:05 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:25 GMT+0700 (Indochina Time)
+23:57:10 debug: Inspect cce:/internal/x/cc
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+23:57:10 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+23:57:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:05 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (Indochina Time)
+23:57:10 debug: Inspect cce:/internal/x/prerequisite-imports
+23:57:10 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+23:57:10 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+23:57:10 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+23:57:10 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+23:57:10 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+23:57:10 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+23:57:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+23:57:10 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Thu Mar 28 2024 17:04:54 GMT+0700 (Indochina Time), Current mtime: Thu Mar 28 2024 23:56:43 GMT+0700 (Indochina Time)
+23:57:10 debug: Inspect cce:/internal/code-quality/cr.mjs
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+23:57:10 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+23:57:10 debug: Target(preview) ends with cost 761.7910000085831ms.
+23:57:17 debug: Pulling asset-db.
+23:57:20 debug: Fetch asset-db cost: 3165.0882999897003ms.
+23:57:20 debug: Build iteration starts.
 Number of accumulated asset changes: 5
 Feature changed: false
-17:05:00 debug: Target(editor) build started.
-17:05:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/x/prerequisite-imports
-17:05:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts.
-17:05:00 debug: Target(editor) ends with cost 18.418334003537893ms.
-17:05:00 debug: Target(preview) build started.
-17:05:00 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (Indochina Time)
-17:05:00 debug: Inspect cce:/internal/x/prerequisite-imports
-17:05:00 debug: Resolve file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts.
-17:05:00 debug: Resolve file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts.
-17:05:00 debug: Target(preview) ends with cost 20.991832997649908ms.
+23:57:20 debug: Target(editor) build started.
+23:57:20 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:25 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:36 GMT+0700 (Indochina Time)
+23:57:20 debug: Inspect cce:/internal/x/prerequisite-imports
+23:57:20 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+23:57:20 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+23:57:20 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+23:57:20 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+23:57:20 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+23:57:23 debug: Target(editor) ends with cost 3016.9830999970436ms.
+23:57:23 debug: Target(preview) build started.
+23:57:23 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:26 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:00:39 GMT+0700 (Indochina Time)
+23:57:23 debug: Inspect cce:/internal/x/prerequisite-imports
+23:57:23 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+23:57:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+23:57:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+23:57:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+23:57:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+23:57:23 debug: Target(preview) ends with cost 452.38059997558594ms.
+00:22:24 debug: Dispatch build request for time accumulated 1 asset changes.
+00:22:24 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:22:24 debug: Target(editor) build started.
+00:22:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:36 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:25:40 GMT+0700 (Indochina Time)
+00:22:24 debug: Inspect cce:/internal/x/prerequisite-imports
+00:22:24 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:22:24 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Thu Mar 28 2024 23:51:24 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:22:20 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:22:24 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:22:24 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:22:24 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:22:24 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:22:24 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:22:24 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:22:24 debug: Target(editor) ends with cost 792.7659999728203ms.
+00:22:24 debug: Target(preview) build started.
+00:22:24 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:00:39 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:25:41 GMT+0700 (Indochina Time)
+00:22:24 debug: Inspect cce:/internal/x/prerequisite-imports
+00:22:24 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:22:24 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:22:24 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Thu Mar 28 2024 23:51:24 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:22:20 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:22:24 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:22:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:22:25 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:22:25 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:22:25 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:22:25 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:22:25 debug: Target(preview) ends with cost 672.1158999800682ms.
+00:25:49 debug: Dispatch build request for time accumulated 1 asset changes.
+00:25:49 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:25:49 debug: Target(editor) build started.
+00:25:49 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:25:40 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:29:05 GMT+0700 (Indochina Time)
+00:25:49 debug: Inspect cce:/internal/x/prerequisite-imports
+00:25:49 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:25:49 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:25:49 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:25:49 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:25:49 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:25:49 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:22:20 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:25:45 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:25:49 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:25:50 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:25:50 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:25:50 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:25:50 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:25:50 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:25:50 debug: Target(editor) ends with cost 671.8656000494957ms.
+00:25:50 debug: Target(preview) build started.
+00:25:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:25:41 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:29:06 GMT+0700 (Indochina Time)
+00:25:50 debug: Inspect cce:/internal/x/prerequisite-imports
+00:25:50 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:25:50 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:25:50 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:25:50 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:25:50 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:25:50 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:22:20 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:25:45 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:25:50 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:25:51 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:25:51 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:25:51 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:25:51 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:25:51 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:25:51 debug: Target(preview) ends with cost 1016.8328999876976ms.
+00:26:37 debug: Dispatch build request for time accumulated 1 asset changes.
+00:26:37 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:26:37 debug: Target(editor) build started.
+00:26:37 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:29:05 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:29:54 GMT+0700 (Indochina Time)
+00:26:37 debug: Inspect cce:/internal/x/prerequisite-imports
+00:26:38 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:26:38 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:25:45 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:26:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:26:38 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:26:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:26:38 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:26:38 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:26:38 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:26:38 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:26:38 debug: Target(editor) ends with cost 727.2342000007629ms.
+00:26:38 debug: Target(preview) build started.
+00:26:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:29:06 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:29:54 GMT+0700 (Indochina Time)
+00:26:38 debug: Inspect cce:/internal/x/prerequisite-imports
+00:26:38 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:26:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:26:38 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:25:45 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:26:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:26:38 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:26:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:26:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:26:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:26:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:26:39 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:26:39 debug: Target(preview) ends with cost 647.4488999843597ms.
+00:28:01 debug: Dispatch build request for time accumulated 1 asset changes.
+00:28:01 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:28:01 debug: Target(editor) build started.
+00:28:01 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:29:54 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:31:18 GMT+0700 (Indochina Time)
+00:28:01 debug: Inspect cce:/internal/x/prerequisite-imports
+00:28:01 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:28:01 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:01 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:28:01 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:28:01 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:28:01 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:26:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:27:59 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:28:01 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:28:02 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:28:02 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:02 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:02 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:02 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:02 debug: Target(editor) ends with cost 706.6949000358582ms.
+00:28:02 debug: Target(preview) build started.
+00:28:02 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:29:54 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:31:18 GMT+0700 (Indochina Time)
+00:28:02 debug: Inspect cce:/internal/x/prerequisite-imports
+00:28:02 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:28:02 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:02 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:28:02 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:28:02 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:28:02 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:26:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:27:59 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:28:02 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:28:03 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:28:03 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:03 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:03 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:03 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:03 debug: Target(preview) ends with cost 658.9517999887466ms.
+00:28:18 debug: Dispatch build request for time accumulated 1 asset changes.
+00:28:18 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:28:18 debug: Target(editor) build started.
+00:28:18 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:31:18 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:31:34 GMT+0700 (Indochina Time)
+00:28:18 debug: Inspect cce:/internal/x/prerequisite-imports
+00:28:18 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:28:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:28:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:28:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:28:18 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:27:59 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:28:17 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:28:18 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:28:19 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:28:19 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:19 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:19 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:19 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:19 debug: Target(editor) ends with cost 997.1050999760628ms.
+00:28:19 debug: Target(preview) build started.
+00:28:19 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:31:18 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:31:35 GMT+0700 (Indochina Time)
+00:28:19 debug: Inspect cce:/internal/x/prerequisite-imports
+00:28:19 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:28:19 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:19 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:28:19 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:28:19 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:28:19 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:27:59 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:28:17 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:28:19 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:28:20 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:28:20 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:20 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:20 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:28:20 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:28:20 debug: Target(preview) ends with cost 738.3899000287056ms.
+00:30:11 debug: Dispatch build request for time accumulated 1 asset changes.
+00:30:11 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:30:11 debug: Target(editor) build started.
+00:30:11 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:31:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:33:27 GMT+0700 (Indochina Time)
+00:30:11 debug: Inspect cce:/internal/x/prerequisite-imports
+00:30:11 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:30:11 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:30:11 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:30:11 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:30:11 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:30:11 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:28:17 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:30:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:30:11 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:30:12 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:30:12 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:30:12 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:30:12 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:30:12 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:30:12 debug: Target(editor) ends with cost 800.3113000392914ms.
+00:30:12 debug: Target(preview) build started.
+00:30:12 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:31:35 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:33:28 GMT+0700 (Indochina Time)
+00:30:12 debug: Inspect cce:/internal/x/prerequisite-imports
+00:30:12 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:30:12 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:30:12 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:30:12 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:30:12 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:30:12 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:28:17 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:30:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:30:12 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:30:13 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:30:13 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:30:13 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:30:13 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:30:13 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:30:13 debug: Target(preview) ends with cost 1076.3352000117302ms.
+00:32:16 debug: Dispatch build request for time accumulated 1 asset changes.
+00:32:16 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:32:16 debug: Target(editor) build started.
+00:32:16 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:33:27 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:35:32 GMT+0700 (Indochina Time)
+00:32:16 debug: Inspect cce:/internal/x/prerequisite-imports
+00:32:16 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:32:16 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:32:16 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:32:16 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:32:16 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:32:16 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:30:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:32:15 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:32:16 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:32:17 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:32:17 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:32:17 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:32:17 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:32:17 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:32:17 debug: Target(editor) ends with cost 966.0299000144005ms.
+00:32:17 debug: Target(preview) build started.
+00:32:17 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:33:28 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:35:33 GMT+0700 (Indochina Time)
+00:32:17 debug: Inspect cce:/internal/x/prerequisite-imports
+00:32:17 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:32:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:32:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:32:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:32:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:32:17 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:30:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:32:15 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:32:17 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:32:18 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:32:18 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:32:18 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:32:18 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:32:18 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:32:18 debug: Target(preview) ends with cost 905.7263999581337ms.
+00:36:22 debug: Dispatch build request for time accumulated 1 asset changes.
+00:36:22 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:36:22 debug: Target(editor) build started.
+00:36:22 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:35:32 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:39:39 GMT+0700 (Indochina Time)
+00:36:22 debug: Inspect cce:/internal/x/prerequisite-imports
+00:36:22 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:36:22 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:36:22 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:36:22 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:36:22 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:36:22 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:32:15 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:36:19 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:36:22 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:36:23 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:36:23 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:36:23 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:36:23 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:36:23 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:36:23 debug: Target(editor) ends with cost 838.3565000295639ms.
+00:36:23 debug: Target(preview) build started.
+00:36:23 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:35:33 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:39:39 GMT+0700 (Indochina Time)
+00:36:23 debug: Inspect cce:/internal/x/prerequisite-imports
+00:36:23 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:36:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:36:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:36:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:36:23 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:36:23 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:32:15 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:36:19 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:36:23 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:36:24 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:36:24 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:36:24 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:36:24 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:36:24 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:36:24 debug: Target(preview) ends with cost 767.9330999851227ms.
+00:37:57 debug: Dispatch build request for time accumulated 1 asset changes.
+00:37:57 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:37:57 debug: Target(editor) build started.
+00:37:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:39:39 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:41:13 GMT+0700 (Indochina Time)
+00:37:57 debug: Inspect cce:/internal/x/prerequisite-imports
+00:37:57 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:37:57 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:36:19 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:37:55 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:37:57 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:37:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:37:57 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:37:57 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:37:57 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:37:57 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:37:57 debug: Target(editor) ends with cost 572.5336999893188ms.
+00:37:57 debug: Target(preview) build started.
+00:37:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:39:39 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:41:13 GMT+0700 (Indochina Time)
+00:37:57 debug: Inspect cce:/internal/x/prerequisite-imports
+00:37:57 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:37:57 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:37:57 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:36:19 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:37:55 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:37:57 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:37:58 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:37:58 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:37:58 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:37:58 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:37:58 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:37:58 debug: Target(preview) ends with cost 823.9937000274658ms.
+00:39:17 debug: Dispatch build request for time accumulated 1 asset changes.
+00:39:17 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:39:17 debug: Target(editor) build started.
+00:39:17 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:41:13 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:42:33 GMT+0700 (Indochina Time)
+00:39:17 debug: Inspect cce:/internal/x/prerequisite-imports
+00:39:17 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:39:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:39:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:39:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:39:17 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:39:17 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:37:55 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:39:16 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:39:17 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:39:18 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:39:18 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:39:18 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:39:18 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:39:18 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:39:18 debug: Target(editor) ends with cost 926.8331000208855ms.
+00:39:18 debug: Target(preview) build started.
+00:39:18 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:41:13 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:42:34 GMT+0700 (Indochina Time)
+00:39:18 debug: Inspect cce:/internal/x/prerequisite-imports
+00:39:18 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:39:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:39:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:39:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:39:18 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:39:18 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:37:55 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:39:16 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:39:18 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:39:19 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:39:19 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:39:19 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:39:19 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:39:19 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:39:19 debug: Target(preview) ends with cost 998.6779000163078ms.
+00:46:08 debug: Dispatch build request for time accumulated 1 asset changes.
+00:46:08 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:46:08 debug: Target(editor) build started.
+00:46:08 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:42:33 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:49:24 GMT+0700 (Indochina Time)
+00:46:08 debug: Inspect cce:/internal/x/prerequisite-imports
+00:46:08 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:46:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:46:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:46:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:46:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:46:08 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:39:16 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:46:07 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:46:08 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:46:09 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:46:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:46:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:46:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:46:09 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:46:09 debug: Target(editor) ends with cost 771.4410000443459ms.
+00:46:09 debug: Target(preview) build started.
+00:46:09 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:42:34 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:49:25 GMT+0700 (Indochina Time)
+00:46:09 debug: Inspect cce:/internal/x/prerequisite-imports
+00:46:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:46:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:46:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:46:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:46:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:46:09 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:39:16 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:46:07 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:46:09 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:46:09 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:46:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:46:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:46:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:46:09 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:46:09 debug: Target(preview) ends with cost 528.6371999979019ms.
+00:50:09 debug: Dispatch build request for time accumulated 1 asset changes.
+00:50:09 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:50:09 debug: Target(editor) build started.
+00:50:09 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:49:24 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:53:26 GMT+0700 (Indochina Time)
+00:50:09 debug: Inspect cce:/internal/x/prerequisite-imports
+00:50:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:50:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:50:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:50:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:50:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:50:09 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:46:07 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:50:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:50:09 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:50:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:50:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:50:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:50:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:50:10 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:50:10 debug: Target(editor) ends with cost 744.0557000041008ms.
+00:50:10 debug: Target(preview) build started.
+00:50:10 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:49:25 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:53:26 GMT+0700 (Indochina Time)
+00:50:10 debug: Inspect cce:/internal/x/prerequisite-imports
+00:50:10 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:50:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:50:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:50:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:50:10 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:50:10 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:46:07 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:50:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:50:10 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:50:11 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:50:11 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:50:11 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:50:11 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:50:11 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:50:11 debug: Target(preview) ends with cost 911.0489000082016ms.
+00:53:05 debug: Dispatch build request for time accumulated 1 asset changes.
+00:53:05 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:53:05 debug: Target(editor) build started.
+00:53:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:53:26 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:56:21 GMT+0700 (Indochina Time)
+00:53:05 debug: Inspect cce:/internal/x/prerequisite-imports
+00:53:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:53:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:53:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:53:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:53:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:53:05 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:50:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:52:57 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:53:05 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:53:06 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:53:06 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:53:06 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:53:06 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:53:06 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:53:06 debug: Target(editor) ends with cost 894.8622000217438ms.
+00:53:06 debug: Target(preview) build started.
+00:53:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:53:26 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:56:22 GMT+0700 (Indochina Time)
+00:53:06 debug: Inspect cce:/internal/x/prerequisite-imports
+00:53:06 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:53:06 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:53:06 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:53:06 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:53:06 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:53:06 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:50:08 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:52:57 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:53:06 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:53:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:53:07 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:53:07 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:53:07 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:53:07 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:53:07 debug: Target(preview) ends with cost 1156.3989999890327ms.
+00:55:40 debug: Dispatch build request for time accumulated 1 asset changes.
+00:55:40 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+00:55:40 debug: Target(editor) build started.
+00:55:40 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:56:21 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:58:56 GMT+0700 (Indochina Time)
+00:55:40 debug: Inspect cce:/internal/x/prerequisite-imports
+00:55:40 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:55:40 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:52:57 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:55:38 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:55:40 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:55:40 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:55:40 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:55:40 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:55:40 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:55:40 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:55:40 debug: Target(editor) ends with cost 749.3450000286102ms.
+00:55:40 debug: Target(preview) build started.
+00:55:40 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:56:22 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 07:58:57 GMT+0700 (Indochina Time)
+00:55:40 debug: Inspect cce:/internal/x/prerequisite-imports
+00:55:40 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+00:55:40 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+00:55:40 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:52:57 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 00:55:38 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+00:55:40 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+00:55:41 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+00:55:41 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:55:41 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:55:41 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+00:55:41 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+00:55:42 debug: Target(preview) ends with cost 1163.0391999483109ms.
+01:20:43 debug: Dispatch build request for time accumulated 1 asset changes.
+01:20:43 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:20:43 debug: Target(editor) build started.
+01:20:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:58:56 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:23:59 GMT+0700 (Indochina Time)
+01:20:43 debug: Inspect cce:/internal/x/prerequisite-imports
+01:20:43 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:20:43 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:20:43 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:20:43 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:20:43 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:20:43 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:55:38 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:20:39 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:20:43 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:20:44 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:20:44 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:20:44 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:20:44 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:20:44 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:20:44 debug: Target(editor) ends with cost 861.2472999691963ms.
+01:20:44 debug: Target(preview) build started.
+01:20:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:58:57 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:24:00 GMT+0700 (Indochina Time)
+01:20:44 debug: Inspect cce:/internal/x/prerequisite-imports
+01:20:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:20:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:20:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:20:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:20:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:20:44 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 00:55:38 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:20:39 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:20:44 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:20:45 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:20:45 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:20:45 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:20:45 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:20:45 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:20:45 debug: Target(preview) ends with cost 731.9340999722481ms.
+01:28:45 debug: Dispatch build request for time accumulated 1 asset changes.
+01:28:45 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:28:45 debug: Target(editor) build started.
+01:28:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:59 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:32:02 GMT+0700 (Indochina Time)
+01:28:45 debug: Inspect cce:/internal/x/prerequisite-imports
+01:28:45 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:28:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:28:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:28:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:28:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:28:45 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:20:39 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:28:42 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:28:45 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:28:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:28:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:28:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:28:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:28:46 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:28:46 debug: Target(editor) ends with cost 940.6358000040054ms.
+01:28:46 debug: Target(preview) build started.
+01:28:46 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:00 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:32:03 GMT+0700 (Indochina Time)
+01:28:46 debug: Inspect cce:/internal/x/prerequisite-imports
+01:28:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:28:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:28:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:28:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:28:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:28:46 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:20:39 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:28:42 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:28:46 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:28:48 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:28:48 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:28:48 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:28:48 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:28:48 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:28:48 debug: Target(preview) ends with cost 1571.2044000029564ms.
+01:32:08 debug: Dispatch build request for time accumulated 1 asset changes.
+01:32:08 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:32:08 debug: Target(editor) build started.
+01:32:08 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:02 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:35:24 GMT+0700 (Indochina Time)
+01:32:08 debug: Inspect cce:/internal/x/prerequisite-imports
+01:32:08 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:32:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:32:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:32:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:32:08 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:32:08 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:28:42 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:32:05 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:32:08 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:32:09 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:32:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:32:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:32:09 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:32:09 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:32:09 debug: Target(editor) ends with cost 882.3740000128746ms.
+01:32:09 debug: Target(preview) build started.
+01:32:09 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:32:03 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:35:25 GMT+0700 (Indochina Time)
+01:32:09 debug: Inspect cce:/internal/x/prerequisite-imports
+01:32:09 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:32:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:32:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:32:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:32:09 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:32:09 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:28:42 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:32:05 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:32:09 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:32:10 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:32:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:32:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:32:10 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:32:10 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:32:10 debug: Target(preview) ends with cost 794.8513000011444ms.
+01:41:45 debug: Dispatch build request for time accumulated 1 asset changes.
+01:41:45 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:41:45 debug: Target(editor) build started.
+01:41:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:24 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:45:01 GMT+0700 (Indochina Time)
+01:41:45 debug: Inspect cce:/internal/x/prerequisite-imports
+01:41:45 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:41:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:41:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:41:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:41:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:41:45 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:32:05 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:41:43 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:41:45 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:41:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:41:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:41:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:41:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:41:46 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:41:46 debug: Target(editor) ends with cost 892.3220999836922ms.
+01:41:46 debug: Target(preview) build started.
+01:41:46 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:35:25 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:45:02 GMT+0700 (Indochina Time)
+01:41:46 debug: Inspect cce:/internal/x/prerequisite-imports
+01:41:46 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:41:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:41:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:41:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:41:46 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:41:46 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:32:05 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:41:43 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:41:46 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:41:47 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:41:47 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:41:47 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:41:47 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:41:47 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:41:47 debug: Target(preview) ends with cost 1116.098799943924ms.
+01:43:04 debug: Dispatch build request for time accumulated 1 asset changes.
+01:43:04 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:43:04 debug: Target(editor) build started.
+01:43:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:45:01 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:46:21 GMT+0700 (Indochina Time)
+01:43:04 debug: Inspect cce:/internal/x/prerequisite-imports
+01:43:04 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:43:04 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:43:04 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:43:04 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:43:04 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:43:04 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:41:43 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:43:03 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:43:04 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:43:05 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:43:05 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:43:05 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:43:05 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:43:05 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:43:05 debug: Target(editor) ends with cost 961.0885000228882ms.
+01:43:05 debug: Target(preview) build started.
+01:43:05 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:45:02 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:46:22 GMT+0700 (Indochina Time)
+01:43:05 debug: Inspect cce:/internal/x/prerequisite-imports
+01:43:05 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:43:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:43:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:43:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:43:05 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:43:05 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:41:43 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:43:03 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:43:05 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:43:07 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:43:07 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:43:07 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:43:07 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:43:07 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:43:07 debug: Target(preview) ends with cost 1443.22570002079ms.
+01:48:53 debug: Dispatch build request for time accumulated 1 asset changes.
+01:48:53 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:48:53 debug: Target(editor) build started.
+01:48:53 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:46:21 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:52:09 GMT+0700 (Indochina Time)
+01:48:53 debug: Inspect cce:/internal/x/prerequisite-imports
+01:48:53 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:48:53 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:48:53 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:48:53 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:48:53 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:48:53 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:43:03 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:48:40 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:48:53 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:48:54 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:48:54 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:48:54 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:48:54 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:48:54 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:48:54 debug: Target(editor) ends with cost 757.6263999938965ms.
+01:48:54 debug: Target(preview) build started.
+01:48:54 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:46:22 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:52:10 GMT+0700 (Indochina Time)
+01:48:54 debug: Inspect cce:/internal/x/prerequisite-imports
+01:48:54 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:48:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:48:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:48:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:48:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:48:54 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:43:03 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:48:40 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:48:54 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:48:54 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:48:54 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:48:54 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:48:54 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:48:54 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:48:55 debug: Target(preview) ends with cost 834.2748000025749ms.
+01:51:44 debug: Dispatch build request for time accumulated 1 asset changes.
+01:51:44 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+01:51:44 debug: Target(editor) build started.
+01:51:44 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:52:09 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:55:00 GMT+0700 (Indochina Time)
+01:51:44 debug: Inspect cce:/internal/x/prerequisite-imports
+01:51:44 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:51:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:51:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:51:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:51:44 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:51:44 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:48:40 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:51:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:51:44 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:51:45 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:51:45 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:51:45 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:51:45 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:51:45 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:51:45 debug: Target(editor) ends with cost 776.8862000107765ms.
+01:51:45 debug: Target(preview) build started.
+01:51:45 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:52:10 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 08:55:01 GMT+0700 (Indochina Time)
+01:51:45 debug: Inspect cce:/internal/x/prerequisite-imports
+01:51:45 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+01:51:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:51:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+01:51:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+01:51:45 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+01:51:45 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:48:40 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 01:51:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+01:51:45 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+01:51:46 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+01:51:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:51:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:51:46 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+01:51:46 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+01:51:46 debug: Target(preview) ends with cost 1503.99329996109ms.
+02:05:36 debug: Dispatch build request for time accumulated 1 asset changes.
+02:05:36 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+02:05:36 debug: Target(editor) build started.
+02:05:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:00 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:08:52 GMT+0700 (Indochina Time)
+02:05:36 debug: Inspect cce:/internal/x/prerequisite-imports
+02:05:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+02:05:36 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:05:36 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+02:05:36 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+02:05:36 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+02:05:36 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:51:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 02:05:23 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+02:05:36 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+02:05:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+02:05:36 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:05:36 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:05:36 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:05:36 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:05:37 debug: Target(editor) ends with cost 889.6200000047684ms.
+02:05:37 debug: Target(preview) build started.
+02:05:37 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:55:01 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:08:53 GMT+0700 (Indochina Time)
+02:05:37 debug: Inspect cce:/internal/x/prerequisite-imports
+02:05:37 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+02:05:37 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:05:37 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+02:05:37 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+02:05:37 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+02:05:37 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 01:51:35 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 02:05:23 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+02:05:37 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+02:05:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+02:05:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:05:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:05:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:05:39 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:05:39 debug: Target(preview) ends with cost 2126.046099960804ms.
+02:06:54 debug: Dispatch build request for time accumulated 1 asset changes.
+02:06:54 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+02:06:54 debug: Target(editor) build started.
+02:06:54 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:52 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:10:10 GMT+0700 (Indochina Time)
+02:06:54 debug: Inspect cce:/internal/x/prerequisite-imports
+02:06:54 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+02:06:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:06:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+02:06:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+02:06:54 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+02:06:54 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 02:05:23 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 02:06:52 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+02:06:54 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+02:06:55 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+02:06:55 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:06:55 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:06:55 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:06:55 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:06:55 debug: Target(editor) ends with cost 785.6886000037193ms.
+02:06:55 debug: Target(preview) build started.
+02:06:55 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:53 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:10:11 GMT+0700 (Indochina Time)
+02:06:55 debug: Inspect cce:/internal/x/prerequisite-imports
+02:06:55 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+02:06:55 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:06:55 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+02:06:55 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+02:06:55 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+02:06:55 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 02:05:23 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 02:06:52 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+02:06:55 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+02:06:56 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+02:06:56 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:06:56 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:06:56 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:06:56 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:06:56 debug: Target(preview) ends with cost 1125.3945000171661ms.
+02:10:38 debug: Dispatch build request for time accumulated 1 asset changes.
+02:10:38 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+02:10:38 debug: Target(editor) build started.
+02:10:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:10:10 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:13:54 GMT+0700 (Indochina Time)
+02:10:38 debug: Inspect cce:/internal/x/prerequisite-imports
+02:10:38 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+02:10:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:10:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+02:10:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+02:10:38 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+02:10:38 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 02:06:52 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 02:10:20 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+02:10:38 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+02:10:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+02:10:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:10:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:10:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:10:39 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:10:39 debug: Target(editor) ends with cost 550.0580999851227ms.
+02:10:39 debug: Target(preview) build started.
+02:10:39 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:10:11 GMT+0700 (Indochina Time), Current mtime: Thu Jan 01 1970 09:13:55 GMT+0700 (Indochina Time)
+02:10:39 debug: Inspect cce:/internal/x/prerequisite-imports
+02:10:39 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+02:10:39 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:10:39 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts.
+02:10:39 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts.
+02:10:39 debug: Resolve file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts from cce:/internal/x/prerequisite-imports as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts.
+02:10:39 debug: Detected change: file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts. Last mtime: Fri Mar 29 2024 02:06:52 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a, Current mtime: Fri Mar 29 2024 02:10:20 GMT+0700 (Indochina Time)@d55873ea-1e98-4bc2-9725-8e32c3f4005a
+02:10:39 debug: Inspect file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts
+02:10:39 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/code-quality/cr.mjs.
+02:10:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:10:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:10:39 debug: Resolve cc from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as cce:/internal/x/cc.
+02:10:39 debug: Resolve ./Audio/AudioController from file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts as file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts.
+02:10:39 debug: Target(preview) ends with cost 558.2030000090599ms.

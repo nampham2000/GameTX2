@@ -2205,60 +2205,122 @@
           "messages": []
         }
       },
-      "timestamp": 1711620300310
+      "timestamp": 1711645030145
+    },
+    "7638801f4b9501d918e101177a67944765397e72": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1711645030224
+    },
+    "594d484ab32e23131f1c325fcd0f0127162f781c": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1711645030250
+    },
+    "2c2a0546054010d06a6d1fb998721da2df02bbef": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1711645030324
     },
     "6a5019a719a9014c047e67aa1cf34453ab8392ce": {
       "imports": {},
-      "timestamp": 1711620300331
+      "timestamp": 1711645030826
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
             "type": "chunk",
-            "id": "47a1530b86f8dba752d13f037cd555503db82c41"
+            "id": "dd8ffe4b66ab421921fe26a7524871e3101b074e"
           },
           "messages": []
         },
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "0cd0a7be055046b5d742c12e57df84889b5cad1e"
+            "id": "7638801f4b9501d918e101177a67944765397e72"
           },
           "messages": []
         },
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
-            "id": "66bb070e2929e64acacf0a5374dcd66b45314dd8"
+            "id": "594d484ab32e23131f1c325fcd0f0127162f781c"
           },
           "messages": []
         },
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "f5b5d0e2bd1c266681a8c289f4317505b1d1b260"
+            "id": "2c2a0546054010d06a6d1fb998721da2df02bbef"
           },
           "messages": []
         },
         "__unresolved_4": {
           "resolved": {
             "type": "chunk",
-            "id": "2d50df6184274cd7ae384865aa5c67bbda8674cb"
+            "id": "bb974146b39d5e5388156263ce27f31d9807be7d"
           },
           "messages": []
         }
       },
-      "timestamp": 1711620300785
+      "timestamp": 1711653039374
+    },
+    "bb974146b39d5e5388156263ce27f31d9807be7d": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "7638801f4b9501d918e101177a67944765397e72"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1711653039872
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
-    "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "47a1530b86f8dba752d13f037cd555503db82c41",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts": "0cd0a7be055046b5d742c12e57df84889b5cad1e",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts": "66bb070e2929e64acacf0a5374dcd66b45314dd8",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts": "f5b5d0e2bd1c266681a8c289f4317505b1d1b260",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts": "2d50df6184274cd7ae384865aa5c67bbda8674cb"
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "dd8ffe4b66ab421921fe26a7524871e3101b074e",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts": "7638801f4b9501d918e101177a67944765397e72",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts": "594d484ab32e23131f1c325fcd0f0127162f781c",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts": "2c2a0546054010d06a6d1fb998721da2df02bbef",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts": "bb974146b39d5e5388156263ce27f31d9807be7d"
   }
 }

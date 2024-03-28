@@ -2,11 +2,11 @@
   "imports": {
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
-    "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts": "./chunks/0c/0cd0a7be055046b5d742c12e57df84889b5cad1e.js",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts": "./chunks/66/66bb070e2929e64acacf0a5374dcd66b45314dd8.js",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts": "./chunks/f5/f5b5d0e2bd1c266681a8c289f4317505b1d1b260.js",
-    "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts": "./chunks/2d/2d50df6184274cd7ae384865aa5c67bbda8674cb.js"
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts": "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts": "./chunks/59/594d484ab32e23131f1c325fcd0f0127162f781c.js",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts": "./chunks/2c/2c2a0546054010d06a6d1fb998721da2df02bbef.js",
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts": "./chunks/bb/bb974146b39d5e5388156263ce27f31d9807be7d.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -42,27 +42,27 @@
       "__unresolved_9": "cce:/internal/x/cc-fu/ui"
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
-      "__unresolved_0": "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js",
-      "__unresolved_1": "./chunks/0c/0cd0a7be055046b5d742c12e57df84889b5cad1e.js",
-      "__unresolved_2": "./chunks/66/66bb070e2929e64acacf0a5374dcd66b45314dd8.js",
-      "__unresolved_3": "./chunks/f5/f5b5d0e2bd1c266681a8c289f4317505b1d1b260.js",
-      "__unresolved_4": "./chunks/2d/2d50df6184274cd7ae384865aa5c67bbda8674cb.js"
+      "__unresolved_0": "./chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js",
+      "__unresolved_1": "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js",
+      "__unresolved_2": "./chunks/59/594d484ab32e23131f1c325fcd0f0127162f781c.js",
+      "__unresolved_3": "./chunks/2c/2c2a0546054010d06a6d1fb998721da2df02bbef.js",
+      "__unresolved_4": "./chunks/bb/bb974146b39d5e5388156263ce27f31d9807be7d.js"
     },
-    "./chunks/2d/2d50df6184274cd7ae384865aa5c67bbda8674cb.js": {
+    "./chunks/bb/bb974146b39d5e5388156263ce27f31d9807be7d.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/0c/0cd0a7be055046b5d742c12e57df84889b5cad1e.js",
+      "__unresolved_1": "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/0c/0cd0a7be055046b5d742c12e57df84889b5cad1e.js": {
+    "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/f5/f5b5d0e2bd1c266681a8c289f4317505b1d1b260.js": {
+    "./chunks/2c/2c2a0546054010d06a6d1fb998721da2df02bbef.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/66/66bb070e2929e64acacf0a5374dcd66b45314dd8.js": {
+    "./chunks/59/594d484ab32e23131f1c325fcd0f0127162f781c.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js": {
+    "./chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     }
   }

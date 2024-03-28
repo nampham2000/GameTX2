@@ -116,6 +116,7 @@
         "a22ee408-655a-4efd-8b84-34f93c0dc95e@f9941",
         "a305cf6e-e9b9-4f06-bc5d-1a22b6fe1b81@f9941",
         "b735d796-77ed-43c8-9d15-e86c7064db91@f9941",
+        "66505f88-51c0-4149-8d52-eae2a3f0190a",
         "076de4d2-a77c-40fd-bbea-4da3e45a952a@f9941",
         "8479da28-4351-4a6c-96d5-4ecdfe039a17@f9941",
         "e76f4edd-6adb-4c55-b227-a0678ce90d8b@f9941",
@@ -6061,6 +6062,21 @@
       "depends": [
         "b251adad-a64a-48af-9162-a2e1725b4cd1@6c48a"
       ]
+    },
+    "versionCode": 0
+  },
+  "ec5233ff-49f0-41ab-ba67-806a7796248c": {
+    "url": "db://assets/Prefab/Node.prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "66505f88-51c0-4149-8d52-eae2a3f0190a": {
+    "url": "db://assets/Prefab/Node.prefab",
+    "value": {
+      "depends": [
+        "63746e3b-ab31-4f40-bc01-e446ad1c27a3@f9941"
+      ],
+      "dependScripts": []
     },
     "versionCode": 0
   }

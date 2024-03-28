@@ -4302,10 +4302,6 @@
     "/Users/waostudio/Downloads/Telegram Desktop/GameTx1 2/assets/Font/Fonta.meta": {
       "time": 1710829283389.8843
     },
-    "/Users/waostudio/Downloads/Telegram Desktop/GameTx1 2/assets/Font/Fonta": {
-      "time": 1710844800752.8237,
-      "uuid": "16d80c63-a204-4190-a875-2b2827c2d6d4"
-    },
     "/Users/waostudio/Downloads/Telegram Desktop/GameTx1 2/assets/image/UI/71590457-a206-4570-af28-703f391219ab.17ddc (1)-fotor-20240319134515.png.meta": {
       "time": 1710830835364.6536
     },
@@ -4445,10 +4441,6 @@
     "C:\\Users\\Admin\\Downloads\\Telegram Desktop\\GameTx1 2 (2)\\GameTx1 2\\assets\\Animation\\Effect": {
       "time": 1710383082000,
       "uuid": "ef868224-cc2f-493b-846e-efcc12b9f3df"
-    },
-    "C:\\Users\\Admin\\Downloads\\Telegram Desktop\\GameTx1 2 (2)\\GameTx1 2\\assets\\Font\\Fonta": {
-      "time": 1710844800000,
-      "uuid": "16d80c63-a204-4190-a875-2b2827c2d6d4"
     },
     "C:\\Users\\Admin\\Downloads\\Telegram Desktop\\GameTx1 2 (2)\\GameTx1 2\\assets\\image\\Dice": {
       "time": 1710383082000,
@@ -5586,10 +5578,6 @@
     "/Users/waostudio/Desktop/GameTx1 2/assets/Animation/Effect": {
       "time": 1710383082000,
       "uuid": "ef868224-cc2f-493b-846e-efcc12b9f3df"
-    },
-    "/Users/waostudio/Desktop/GameTx1 2/assets/Font/Fonta": {
-      "time": 1710844800000,
-      "uuid": "16d80c63-a204-4190-a875-2b2827c2d6d4"
     },
     "/Users/waostudio/Desktop/GameTx1 2/assets/image/Dice": {
       "time": 1710383082000,
@@ -6825,10 +6813,6 @@
     "/Users/waostudio/Desktop/GameTx12/assets/Animation/Effect": {
       "time": 1710383082000,
       "uuid": "ef868224-cc2f-493b-846e-efcc12b9f3df"
-    },
-    "/Users/waostudio/Desktop/GameTx12/assets/Font/Fonta": {
-      "time": 1710844800000,
-      "uuid": "16d80c63-a204-4190-a875-2b2827c2d6d4"
     },
     "/Users/waostudio/Desktop/GameTx12/assets/image/Dice": {
       "time": 1710383082000,
@@ -8449,6 +8433,1658 @@
     "/Users/waostudio/Desktop/GameTx12/assets/Audio/ButtonMusic.png": {
       "time": 1711608014269.0005,
       "uuid": "b251adad-a64a-48af-9162-a2e1725b4cd1"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation": {
+      "time": 1711644683967.2236,
+      "uuid": "86ddcf39-6754-4a79-82e6-e3b87fd808dd"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio": {
+      "time": 1711644683990.762,
+      "uuid": "676530f8-bc5a-4a93-97e8-bc5faec3978b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font": {
+      "time": 1711644684005.4004,
+      "uuid": "9f05afed-4a7b-496c-906e-6ba5f172bad9"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image": {
+      "time": 1711644684211.0923,
+      "uuid": "1176d4df-6778-4bec-9969-792064bd4b83"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral": {
+      "time": 1711644684007.401,
+      "uuid": "0211ebc1-9cfc-4e0f-a9ad-356ffa7ace2e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Prefab": {
+      "time": 1711650118703.1182,
+      "uuid": "ab79b832-b592-4e94-b38d-8e48d352edeb"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\PrefabsEf": {
+      "time": 1711644684009.401,
+      "uuid": "6623300d-2b45-47ed-be50-551674b5e2d4"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scene": {
+      "time": 1711644684019.4006,
+      "uuid": "9fa3f5f4-e7b1-4b60-8916-e50f3245f0d4"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts": {
+      "time": 1711644684023.7808,
+      "uuid": "1de27453-af6d-461c-9aec-082dd9c476ab"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice": {
+      "time": 1711644683957.7273,
+      "uuid": "46355ea0-697a-49fa-8d84-4c1de2db0475"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Effect": {
+      "time": 1711644683960.7263,
+      "uuid": "ef868224-cc2f-493b-846e-efcc12b9f3df"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice": {
+      "time": 1711644684040.3557,
+      "uuid": "7702708d-65fb-4dd9-a6c5-2f02ae823e86"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect": {
+      "time": 1711644684193.5454,
+      "uuid": "8f847dcf-b760-4934-8ca1-167371a4c29d"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite": {
+      "time": 1711644684085.735,
+      "uuid": "a432e74b-930d-4095-8260-b5d222c5ac87"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading": {
+      "time": 1711644684095.1223,
+      "uuid": "1e7efffc-561b-42bf-8987-5001ee9da7c6"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login": {
+      "time": 1711644684111.1233,
+      "uuid": "c236d8a0-b7f3-4b12-bbbc-fb193c3c8148"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money": {
+      "time": 1711644684120.6533,
+      "uuid": "244fe3aa-53c4-4aae-aeeb-431ee82d6f1a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result": {
+      "time": 1711644684132.3987,
+      "uuid": "06715cc3-8b86-4152-8963-bddf5c321e13"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI": {
+      "time": 1711644684183.164,
+      "uuid": "34bb82c4-d34f-4926-808c-07251fa8cc38"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Audio": {
+      "time": 1711644684021.401,
+      "uuid": "99cd5742-0eb5-4911-9f8e-a8da925c0ee7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Data": {
+      "time": 1711644684022.7769,
+      "uuid": "f5d39433-1d93-4e75-b109-0929b394cc75"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number": {
+      "time": 1711644684057.8308,
+      "uuid": "ac8c4524-4d53-46c5-b0a4-f0f8748f7ab7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number": {
+      "time": 1711644684126.9631,
+      "uuid": "0137da5b-bd41-4d90-981c-ea5f7f4f9fa7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis": {
+      "time": 1711644684154.0679,
+      "uuid": "d7907f0a-c800-4d2f-ae9d-e90ea090bbd3"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\GameCenter.ts": {
+      "time": 1711644684022.7769,
+      "uuid": "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\GameController.ts": {
+      "time": 1711653020993.9592,
+      "uuid": "d55873ea-1e98-4bc2-9725-8e32c3f4005a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Audio\\AudioController.ts": {
+      "time": 1711644684020.4016,
+      "uuid": "4b73b3ba-5ca9-426f-9cbc-60bc319f2491"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Data\\Constant.ts": {
+      "time": 1711644684021.401,
+      "uuid": "4097b394-b0da-4a08-8e07-98880adcc322"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation.meta": {
+      "time": 1711644683945.3835
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio.meta": {
+      "time": 1711644683968.2224
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font.meta": {
+      "time": 1711644683991.7654
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image.meta": {
+      "time": 1711644684024.7805
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral.meta": {
+      "time": 1711644684005.4004
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Prefab.meta": {
+      "time": 1711644684008.4004
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\PrefabsEf.meta": {
+      "time": 1711644684009.401
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scene.meta": {
+      "time": 1711644684010.4001
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts.meta": {
+      "time": 1711644684019.4006
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice.meta": {
+      "time": 1711644683946.3838
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Effect.meta": {
+      "time": 1711644683958.7275
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice.meta": {
+      "time": 1711644684025.782
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect.meta": {
+      "time": 1711644684187.1638
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite.meta": {
+      "time": 1711644684041.3557
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading.meta": {
+      "time": 1711644684086.7346
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login.meta": {
+      "time": 1711644684095.1223
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money.meta": {
+      "time": 1711644684111.1233
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result.meta": {
+      "time": 1711644684120.6533
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI.meta": {
+      "time": 1711644684133.398
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Audio.meta": {
+      "time": 1711644684020.4016
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Data.meta": {
+      "time": 1711644684021.401
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number.meta": {
+      "time": 1711644684041.3557
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number.meta": {
+      "time": 1711644684122.0671
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis.meta": {
+      "time": 1711644684142.1577
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\GameCenter.ts.meta": {
+      "time": 1711644684022.7769
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\GameController.ts.meta": {
+      "time": 1711644684023.7808
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Audio\\AudioController.ts.meta": {
+      "time": 1711644684021.401
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scripts\\Data\\Constant.ts.meta": {
+      "time": 1711644684022.7769
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\coin.plist": {
+      "time": 1711644683965.2197,
+      "uuid": "8bc4d26b-eb8a-4bdd-b668-688249fe5379"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\coin.png": {
+      "time": 1711644683966.2234,
+      "uuid": "35ba52f2-f662-42fe-b2b2-8380606a6d1c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dick.anim": {
+      "time": 1711644683958.7275,
+      "uuid": "d4d4d6b8-229c-4f95-a867-e9a65b86414a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\LighHis.anim": {
+      "time": 1711644683960.7263,
+      "uuid": "52335582-7db8-441c-ad46-09cabef0f7c9"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\LigningGray.anim": {
+      "time": 1711644683961.7268,
+      "uuid": "31a0c341-c769-4862-836a-cced1c034370"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Loading.anim": {
+      "time": 1711644683961.7268,
+      "uuid": "5553af29-63d8-4479-8f89-b801a83db26e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\plateIn.anim": {
+      "time": 1711644683967.2236,
+      "uuid": "c5a1a9a4-10f6-4b52-9625-8f89546b5dcd"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\ResTableOff.anim": {
+      "time": 1711644683962.726,
+      "uuid": "8006543d-cfc7-4563-af27-38405b07b24c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\ResTbOn.anim": {
+      "time": 1711644683962.726,
+      "uuid": "fa81b75e-4310-46c5-945c-2daf6d949836"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\TableLogin.anim": {
+      "time": 1711644683963.7495,
+      "uuid": "1de1b54d-7910-4b7d-9401-86005671fcc3"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\TableLoginoff.anim": {
+      "time": 1711644683963.7495,
+      "uuid": "7649e622-1b18-4398-bdde-3d7ac4879115"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\BackgorundSound.mp4": {
+      "time": 1711644683969.2234,
+      "uuid": "bedbbe46-df8a-4f3a-9e71-f7d39969eeba"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\backgroundMusic.mp3": {
+      "time": 1711644683987.634,
+      "uuid": "03fe7714-859c-40fd-b7db-93c8e6a63b0c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\BetSound.mp3": {
+      "time": 1711644683970.2234,
+      "uuid": "290013fb-928b-43ce-836f-4ecbf367ab99"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\ButtonMusic.png": {
+      "time": 1711644683970.2234,
+      "uuid": "b251adad-a64a-48af-9162-a2e1725b4cd1"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\clickSound.mp3": {
+      "time": 1711644683988.634,
+      "uuid": "fae299e5-1548-4c98-9ab7-23b3cd561754"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\DiceSound.mp3": {
+      "time": 1711644683972.6343,
+      "uuid": "d5b952c2-3778-4756-8b27-006cfb2b0364"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\plateIn.mp3": {
+      "time": 1711644683989.6338,
+      "uuid": "82d2a9e7-99c1-4a31-aed1-73cc4042528b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\ressultSound.mp3": {
+      "time": 1711644683990.762,
+      "uuid": "9cd56d16-2dc9-4100-a41b-fc842b77a733"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\StatusMusic.png": {
+      "time": 1711644683972.6343,
+      "uuid": "8b9e499a-7661-4f9d-9090-3dbf1a1bbb56"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\sicbo-font.fnt": {
+      "time": 1711644684002.106,
+      "uuid": "d8daf2dc-b4ae-4395-a603-c41ff79160ed"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\sicbo-font.png": {
+      "time": 1711644684004.4006,
+      "uuid": "2f705957-2b15-4931-aaad-9ae27fe0db64"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\SVN-Franko.ttf": {
+      "time": 1711644683992.7659,
+      "uuid": "2fe8d05a-3b68-497b-acfa-7f38fdfe9f67"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-1.fnt": {
+      "time": 1711644683993.7664,
+      "uuid": "2dcf2bdf-6deb-451f-a0fc-94e632fbe185"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-1.png": {
+      "time": 1711644683997.115,
+      "uuid": "31e622ad-a09e-4dd4-8ce3-7e23b52486fa"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-2.fnt": {
+      "time": 1711644683998.1062,
+      "uuid": "c2d4f4a8-425d-44e9-970a-30be77b61562"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-2.png": {
+      "time": 1711644684001.1062,
+      "uuid": "6ec1c9c7-92a3-4089-b0b7-03ee6c89e62b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\abstract-surface-textures-white-concrete-stone-wall_74190-8189.png": {
+      "time": 1711644684185.1648,
+      "uuid": "e9ce5899-af37-4b40-bc49-2549464bcda8"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Aroww.png": {
+      "time": 1711644684024.7805,
+      "uuid": "82c9f934-e79c-44b6-accd-5d87cd8d9e11"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect 13.png": {
+      "time": 1711644684186.1638,
+      "uuid": "f7e41188-77bf-4856-bb65-1294376acf41"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 1.png": {
+      "time": 1711644684195.5474,
+      "uuid": "5d2fc8aa-1f02-4a14-931a-1fdb2f67e138"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 12.png": {
+      "time": 1711644684196.5454,
+      "uuid": "bb0dae20-d376-4068-87cc-db9c9e89cd93"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 13.png": {
+      "time": 1711644684197.5479,
+      "uuid": "8f0aa4a4-19f4-4b10-9561-19b9f3818e37"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 14.png": {
+      "time": 1711644684199.546,
+      "uuid": "95438ab5-b4cf-45f3-8ffe-994c6c4af567"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 15.png": {
+      "time": 1711644684200.5454,
+      "uuid": "8fdaf373-2a3c-41e4-88c7-cdb1fb8d18ff"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 16.png": {
+      "time": 1711644684201.684,
+      "uuid": "1503e421-6943-4a15-96dc-ca0ebc3c4344"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 2.png": {
+      "time": 1711644684204.0923,
+      "uuid": "5ffbf828-cf8c-4e19-8bd6-8c43dc4e52d9"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 3.png": {
+      "time": 1711644684205.0918,
+      "uuid": "ddceee3d-910f-4f4e-a8f9-299aee4833a1"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 43.png": {
+      "time": 1711644684206.0923,
+      "uuid": "937064b3-f29d-4b83-98ea-5eab12c9f8ab"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 5.png": {
+      "time": 1711644684207.0913,
+      "uuid": "1f5ff0f2-2912-4aad-90ad-a0c41b0008b4"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 52.png": {
+      "time": 1711644684208.092,
+      "uuid": "837dec81-cc21-4b11-84d9-572ff118c94a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 54.png": {
+      "time": 1711644684208.092,
+      "uuid": "97f4effc-5616-461c-8d8f-7644db9fdd3a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 56.png": {
+      "time": 1711644684209.0918,
+      "uuid": "63746e3b-ab31-4f40-bc01-e446ad1c27a3"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 6.png": {
+      "time": 1711644684210.0923,
+      "uuid": "006eb36d-8cc1-4f85-a46b-3ccea40f4e74"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 66.png": {
+      "time": 1711644684211.0923,
+      "uuid": "b657b7f5-cfed-4e9d-bca5-da8a3948b8a6"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 7.png": {
+      "time": 1711644684211.0923,
+      "uuid": "84a0acf4-0f58-44e2-a99b-75a7049225ba"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Untitled-1.png": {
+      "time": 1711644684184.1636,
+      "uuid": "c155e90b-fe3e-4ac2-b4c1-cbb7d353d9a9"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral\\effect 1 (1).png": {
+      "time": 1711644684006.4004,
+      "uuid": "6d8573ad-126d-44e1-a72e-a9d032d6fda0"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral\\material.mtl": {
+      "time": 1711644684006.4004,
+      "uuid": "0268d3f6-bf5d-4fff-9740-17f76ec0fd46"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral\\physics-material.pmtl": {
+      "time": 1711644684007.401,
+      "uuid": "494fbaca-0fb9-4617-80d5-cad261b48ece"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Prefab\\Black.prefab": {
+      "time": 1711644684008.4004,
+      "uuid": "2cd42e20-afef-4d8f-8315-04a276a782ba"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\PrefabsEf\\Particle2D.prefab": {
+      "time": 1711644684009.401,
+      "uuid": "1ca5b545-83c5-419a-b299-bbcc12b27a9c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scene\\Game.scene": {
+      "time": 1711650130354.0107,
+      "uuid": "ddde4533-dc57-44ae-9b13-ccae28619f2f"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scene\\Login.scene": {
+      "time": 1711644684018.4038,
+      "uuid": "fc087dd0-47cc-456f-81fd-41a554017f31"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\13dbcc05-9c74-4606-870c-be9475b2a2cb.90faf-fotor-20240327111823.png": {
+      "time": 1711644683946.3838,
+      "uuid": "83f60ea1-e68a-40c9-9d5c-66d583c76dd1"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\13dbcc05-9c74-4606-870c-be9475b2a2cb.90faf-fotor-20240327154225.png": {
+      "time": 1711644683947.7002,
+      "uuid": "e296c65e-deef-4d84-b48d-c929a74316cd"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\13dbcc05-9c74-4606-870c-be9475b2a2cb.90faf-fotor-20240327154317.png": {
+      "time": 1711644683947.7002,
+      "uuid": "32dfce5f-8242-4432-8cde-339bd83456d8"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\BOOM.anim": {
+      "time": 1711644683949.119,
+      "uuid": "7542ab86-6ba7-4515-85fe-d2d0b21379d2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\dice.plist": {
+      "time": 1711644683951.4524,
+      "uuid": "9dcabef1-1131-456d-aa13-db1a14d28567"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\dice.png": {
+      "time": 1711644683954.4924,
+      "uuid": "f23343d5-ab5d-4c1f-9225-7cbc73c23411"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\DiceAni.anim": {
+      "time": 1711644683950.4478,
+      "uuid": "791e8099-c236-47eb-8994-32dd189ef582"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\effect.anim": {
+      "time": 1711644683955.4775,
+      "uuid": "b650b29e-3d66-4a2d-9133-ffbf3b5b6a27"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\effect1.anim": {
+      "time": 1711644683956.7234,
+      "uuid": "37bfcc7b-f384-4351-bd9a-72c4dd29f494"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\effect2.anim": {
+      "time": 1711644683957.7273,
+      "uuid": "d072cbe7-0ad8-4906-84d5-2f66d12e2410"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Effect\\Light.anim": {
+      "time": 1711644683959.7268,
+      "uuid": "7d1a5a07-683d-4d32-9320-c2d54d3f3359"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Effect\\WinoverLining.anim": {
+      "time": 1711644683959.7268,
+      "uuid": "1a6faaef-7ce7-469f-be4c-b572b0df030e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 1.png": {
+      "time": 1711644684025.782,
+      "uuid": "8ec99678-7b64-44e8-a01e-4f15ca255d0c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 10.png": {
+      "time": 1711644684027.7837,
+      "uuid": "9e9f9eb6-b52e-46db-b22f-4b7378f6ecdc"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 11.png": {
+      "time": 1711644684028.7822,
+      "uuid": "96fb4bff-8ca8-48f1-8e39-97ab96165815"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 12.png": {
+      "time": 1711644684029.7825,
+      "uuid": "71b37b8e-ad13-4e61-968e-6d2a1753dfb3"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 13.png": {
+      "time": 1711644684029.7825,
+      "uuid": "1fc1e7ce-515d-4ade-98cd-ce84b79f5234"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 14.png": {
+      "time": 1711644684030.7825,
+      "uuid": "411470d0-7582-4ca3-bb35-72b71320a19a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 15.png": {
+      "time": 1711644684031.7812,
+      "uuid": "1e165abc-44b5-491f-aa89-47216bc9dc66"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 2.png": {
+      "time": 1711644684031.7812,
+      "uuid": "88c60c69-5675-4962-8038-5cd7f6954c35"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 3.png": {
+      "time": 1711644684033.172,
+      "uuid": "3002cc0f-cd37-47bd-b8da-8b81a61df4b3"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 4.png": {
+      "time": 1711644684035.3496,
+      "uuid": "a788c069-0ed0-4d59-b13e-64189fb3e405"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 5.png": {
+      "time": 1711644684036.3533,
+      "uuid": "40a3b197-7a1d-4523-b70a-72de836aca9d"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 6.png": {
+      "time": 1711644684037.353,
+      "uuid": "ce930e4d-1556-4cfc-b563-3b7097fd9053"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 7.png": {
+      "time": 1711644684038.3557,
+      "uuid": "b14cab26-9bbe-4d2e-b1d6-f552fd02fa0b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 8.png": {
+      "time": 1711644684039.3555,
+      "uuid": "e13c3d1b-a77a-4139-bbe5-fcd706d6fd23"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 9.png": {
+      "time": 1711644684040.3557,
+      "uuid": "38c323f2-03ad-4597-b429-fcfbcbb71779"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 1 (1).png": {
+      "time": 1711644684187.1638,
+      "uuid": "9d9304c7-a7fa-41c7-8e21-a5b22e699639"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 1.png": {
+      "time": 1711644684190.5425,
+      "uuid": "f92b11e1-610c-4515-bdf4-a5cf28bb5630"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 12.png": {
+      "time": 1711644684191.546,
+      "uuid": "a3d2486e-efe1-4dfa-87de-c4433401de41"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 13.png": {
+      "time": 1711644684192.5452,
+      "uuid": "f363c04f-df48-411e-b10b-dd45ebfd3e9d"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 15.png": {
+      "time": 1711644684193.5454,
+      "uuid": "6ee002d1-a9d6-4b77-99f4-137c93009ba9"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 10.png": {
+      "time": 1711644684069.423,
+      "uuid": "c278d1a2-7dea-40d1-8650-f78178f6bd29"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 11.png": {
+      "time": 1711644684073.4236,
+      "uuid": "81f87e57-a941-4944-8b52-0b58643c6ce7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 13.png": {
+      "time": 1711644684076.4768,
+      "uuid": "f8ed342e-c35b-488c-982a-f457caf278d6"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 14.png": {
+      "time": 1711644684078.732,
+      "uuid": "e7d6433d-353b-469c-8b8f-365c40d09e85"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 15.png": {
+      "time": 1711644684081.7344,
+      "uuid": "03063a57-e941-4503-af1a-524de5745ed7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 16.png": {
+      "time": 1711644684085.735,
+      "uuid": "ee1ec87d-b7b3-4571-807b-a389ef1861f2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318114433.png": {
+      "time": 1711644684058.8313,
+      "uuid": "04c18c56-0fab-488e-95ab-3b72689580c5"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318114615.png": {
+      "time": 1711644684060.1558,
+      "uuid": "9c5833ca-6393-4a3d-8e40-325f51d61f49"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-2024031811498.png": {
+      "time": 1711644684061.1597,
+      "uuid": "03b538e7-bde1-4561-aa33-86aa93220640"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318115131.png": {
+      "time": 1711644684062.1592,
+      "uuid": "59699505-9157-4eee-8d54-4ac6cd5a4138"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318115411.png": {
+      "time": 1711644684063.1592,
+      "uuid": "cb3fb23a-80c6-4166-9061-d3688b8c3f7a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-2024031811550.png": {
+      "time": 1711644684064.1624,
+      "uuid": "aff10b24-f514-418b-8358-117be60264eb"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318132212.png": {
+      "time": 1711644684064.1624,
+      "uuid": "8117ec14-1555-4323-b0dc-05e6a57f5879"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318132312.png": {
+      "time": 1711644684066.3171,
+      "uuid": "7436c4b8-5bd5-4d41-9796-f40969994eb5"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\1.png": {
+      "time": 1711644684087.758,
+      "uuid": "217c7513-5d4c-4d01-b750-1f2953d5ba21"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\2.png": {
+      "time": 1711644684088.7632,
+      "uuid": "74f20f42-0475-4a09-be81-1866d3b48158"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\27f990fd-8798-4e57-9a15-7629dc747038.65093-fotor-20240326105659.png": {
+      "time": 1711644684089.9075,
+      "uuid": "9794a22e-b108-4092-ab41-ae2cbdb502f3"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\3.png": {
+      "time": 1711644684090.9116,
+      "uuid": "e0065723-4c0d-44b3-bd2f-cff02dc1aab2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\4.png": {
+      "time": 1711644684092.1184,
+      "uuid": "18ba6b2c-76c1-4137-beec-cabdb62c1a2e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\5.png": {
+      "time": 1711644684093.1228,
+      "uuid": "b41db981-56e4-46c2-872d-6aac0e56c992"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\6.png": {
+      "time": 1711644684094.1216,
+      "uuid": "c5d33264-e074-4fe6-8828-68e6e5d6c363"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\7.png": {
+      "time": 1711644684095.1223,
+      "uuid": "094bae72-c429-49a6-9387-94589d2b0f7d"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\750x750bb.png": {
+      "time": 1711644684097.1228,
+      "uuid": "6a7a2bbf-870a-4f2a-890f-345d7197d5c4"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\background.png": {
+      "time": 1711644684104.96,
+      "uuid": "65709975-ee1d-4ab0-87f9-f0a4e65c842f"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\LoginButton.png": {
+      "time": 1711644684099.596,
+      "uuid": "ec244b85-0b16-4909-babd-3dfcebd9e1ad"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\LoginTitle.png": {
+      "time": 1711644684100.596,
+      "uuid": "538deac2-d139-473a-9863-73373b905ecf"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\logo.png": {
+      "time": 1711644684108.123,
+      "uuid": "c2737777-9a49-44fe-88f6-77618a4dfd51"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\regButton.png": {
+      "time": 1711644684110.1248,
+      "uuid": "1d5fcb0e-4fc0-4ed0-acf4-82342ed83b39"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\ResTile.png": {
+      "time": 1711644684100.596,
+      "uuid": "a091de0a-0335-424c-9140-723b1229968c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\resTitle.png": {
+      "time": 1711644684110.1248,
+      "uuid": "af9a01b9-74b3-4f0c-9af4-c59c7448bbeb"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\100k.png": {
+      "time": 1711644684112.1235,
+      "uuid": "a2f6dced-f5d3-407f-a39b-eed9e1f7171a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\10k.png": {
+      "time": 1711644684114.1294,
+      "uuid": "8479da28-4351-4a6c-96d5-4ecdfe039a17"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\10M.png": {
+      "time": 1711644684113.127,
+      "uuid": "e3b79168-1516-4f6c-9033-ca7f1499ad74"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\1k.png": {
+      "time": 1711644684115.525,
+      "uuid": "076de4d2-a77c-40fd-bbea-4da3e45a952a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\20M.png": {
+      "time": 1711644684116.5283,
+      "uuid": "56d85706-a75b-424c-bc85-e0a96e4d2c17"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\500k.png": {
+      "time": 1711644684116.5283,
+      "uuid": "c7eb03dc-5b4a-4f8d-a8c8-06fedac824ee"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\50k.png": {
+      "time": 1711644684119.6533,
+      "uuid": "e76f4edd-6adb-4c55-b227-a0678ce90d8b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\50M.png": {
+      "time": 1711644684117.651,
+      "uuid": "2ff05480-d50a-423d-8063-e3167cb0033c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\5M.png": {
+      "time": 1711644684120.6533,
+      "uuid": "0e2fc426-c938-4b26-b48e-46f58583afba"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\backgroundHistory.png": {
+      "time": 1711644684126.9631,
+      "uuid": "bbd429e6-26ca-4e7d-afcc-faa26c6aa35c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\black.png": {
+      "time": 1711644684127.9673,
+      "uuid": "9f3c1ac2-d6d4-45a4-a51c-d5fdad33fc47"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\boardHistoryPage2.png": {
+      "time": 1711644684128.9663,
+      "uuid": "e0369e46-d936-496c-801f-589b1b29b366"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\boardResults.png": {
+      "time": 1711644684128.9663,
+      "uuid": "fe5107a0-8201-4dac-b19e-778c8fa7984e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\muiten.png": {
+      "time": 1711644684129.967,
+      "uuid": "693c0623-b002-44f4-a672-298e53db189e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\table2.png": {
+      "time": 1711644684131.3943,
+      "uuid": "1bc753f8-9943-4781-af34-84dc67bbd79a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\white.png": {
+      "time": 1711644684132.3987,
+      "uuid": "33a4aff1-6db0-4215-a47f-4ea3868e78b6"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\6698d124-9e39-4ebd-b3f4-4825aea70e40.ab12e.png": {
+      "time": 1711644684133.398,
+      "uuid": "781d0bab-d8c1-44f6-9a40-99ae6c8c711b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc (1)-fotor-20240319134515.png": {
+      "time": 1711644684134.889,
+      "uuid": "55b50f47-a8f9-4c06-8373-a0bb908629f1"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc-fotor-20240319113544.png": {
+      "time": 1711644684136.9014,
+      "uuid": "064ef833-8ab8-4414-bbc9-0fd9203f503b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc-fotor-20240319114246.png": {
+      "time": 1711644684137.9106,
+      "uuid": "e197a31d-c111-4fd1-a8fb-d042f5a42eee"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc-fotor-20240319114447.png": {
+      "time": 1711644684138.9106,
+      "uuid": "a9e28612-ae13-411c-b7b4-8491cd047b5c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\826aa8f8-eeaf-469f-8498-bf3669aa8eb6.726ba-fotor-2024031914742.png": {
+      "time": 1711644684139.9116,
+      "uuid": "b1485726-e914-4b03-a1de-c96ec8ce60cb"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\a86f25b7-c25c-45f7-9286-f8c33cf36a17.50e7d.png": {
+      "time": 1711644684157.4265,
+      "uuid": "441f020a-c0f9-4938-83ae-74ca0ee714d7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\Avatar.png": {
+      "time": 1711644684139.9116,
+      "uuid": "77788d26-0bdf-4f69-9f8c-3985fe915627"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\btn_close_popup_uudainaptien3pt.png": {
+      "time": 1711644684158.4268,
+      "uuid": "26f1c858-baf5-4bf0-a627-4b8c005cf0f8"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\Config.png": {
+      "time": 1711644684141.1533,
+      "uuid": "3375cfe0-fd10-4bad-bb98-a443189b8a4f"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\config2.png": {
+      "time": 1711644684159.427,
+      "uuid": "610084f0-62ec-4f32-b934-9e32badea39c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\config3.png": {
+      "time": 1711644684160.4304,
+      "uuid": "5863f166-2f0b-49d1-bf53-9d507b9e8c08"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\cup.png": {
+      "time": 1711644684161.427,
+      "uuid": "28f2b833-219e-4e22-bd12-d106d7895219"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\LineUser.png": {
+      "time": 1711644684154.0679,
+      "uuid": "8768d3ea-d733-4327-8572-6c8a68f9cd30"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\LoginTable.png": {
+      "time": 1711644684155.4236,
+      "uuid": "8bd3adc1-3950-49dc-b1c1-3b24e332fe4b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 17.png": {
+      "time": 1711644684161.427,
+      "uuid": "a6a6d80b-ada3-4f0b-8030-48589bf4e862"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 20.png": {
+      "time": 1711644684162.4272,
+      "uuid": "024a81d1-9934-4b89-9816-2450fa8f211e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 22.png": {
+      "time": 1711644684163.427,
+      "uuid": "17485d87-a422-4770-b494-04413fe0db25"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 23.png": {
+      "time": 1711644684163.427,
+      "uuid": "4cff96bf-39f7-4644-ad5f-4f361b40ba2a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 24.png": {
+      "time": 1711644684164.6494,
+      "uuid": "e4befd1a-f181-4c92-a34f-723ee80e17a7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 30.png": {
+      "time": 1711644684165.652,
+      "uuid": "c517b9e3-354a-4e93-a4c4-07672664bb65"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 31.png": {
+      "time": 1711644684165.652,
+      "uuid": "e6ae1272-5c00-499a-8405-ec4af0d266eb"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 32.png": {
+      "time": 1711644684167.0923,
+      "uuid": "c07cfe54-de23-466c-8caf-9b417afcdaa7"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 4.png": {
+      "time": 1711644684169.5535,
+      "uuid": "6c0ae258-2fe7-4e9d-91b0-06e37fd46e8d"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 41.png": {
+      "time": 1711644684169.5535,
+      "uuid": "fec876de-a4df-4613-9106-9f106485c79c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 46.png": {
+      "time": 1711644684170.5527,
+      "uuid": "a7fba019-33cd-4d30-b15a-1f6a017d5e02"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 47.png": {
+      "time": 1711644684171.554,
+      "uuid": "d4ae3b97-5696-40e5-9845-bd86304abf58"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 50.png": {
+      "time": 1711644684172.5542,
+      "uuid": "a237e136-7fea-49f5-a4b4-1fee47a5416a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 59.png": {
+      "time": 1711644684173.5532,
+      "uuid": "ff3dc07d-c14e-4302-a355-e77bc49fe757"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 60.png": {
+      "time": 1711644684174.553,
+      "uuid": "fcbae24b-d3c9-47d3-9ae8-5579f0e7292b"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 62.png": {
+      "time": 1711644684174.553,
+      "uuid": "107da113-56c9-466a-9012-237d77c52af6"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 64.png": {
+      "time": 1711644684175.965,
+      "uuid": "45eb5c8c-4a5c-4207-a391-61b1c8c04e5e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 65.png": {
+      "time": 1711644684176.969,
+      "uuid": "82153282-f643-4129-9d71-05b1d0bc7c1e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 67.png": {
+      "time": 1711644684178.1584,
+      "uuid": "fd857159-fefa-43c8-af9d-67fe3b59f9d8"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table-blue 2.png": {
+      "time": 1711644684180.1626,
+      "uuid": "ff592edf-82b9-4bdf-a85a-3b5fb5092aaa"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table-blue 9.png": {
+      "time": 1711644684182.1636,
+      "uuid": "405ef769-2c03-4d79-a35a-93f86528f817"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\tanl.png": {
+      "time": 1711644684183.164,
+      "uuid": "94a34094-9188-465b-833a-b8a0e6ee3222"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\10.png": {
+      "time": 1711644684042.3552,
+      "uuid": "0f0b3c2c-7abd-4478-8961-fd98c392c9a5"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\11.png": {
+      "time": 1711644684043.4146,
+      "uuid": "ace47f10-68dd-4e03-bfc1-59e477616a5e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\12.png": {
+      "time": 1711644684044.4202,
+      "uuid": "09b87f8e-4d99-4374-b029-2da653e5edd2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\13.png": {
+      "time": 1711644684044.4202,
+      "uuid": "71386c25-5c6d-484f-acc3-ec1fecabfbf2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\14.png": {
+      "time": 1711644684045.8513,
+      "uuid": "634d302c-15c5-4ac7-ad62-70c526382b88"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\15.png": {
+      "time": 1711644684045.8513,
+      "uuid": "3c2466c5-5f3c-4765-9a40-4d4eda1d4eac"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\16.png": {
+      "time": 1711644684047.3416,
+      "uuid": "a22ee408-655a-4efd-8b84-34f93c0dc95e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\17.png": {
+      "time": 1711644684047.3416,
+      "uuid": "a305cf6e-e9b9-4f06-bc5d-1a22b6fe1b81"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\18-1.png": {
+      "time": 1711644684048.4214,
+      "uuid": "440c54c1-4e90-48d1-b0f1-f122105dd7a9"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\18.png": {
+      "time": 1711644684048.4214,
+      "uuid": "b735d796-77ed-43c8-9d15-e86c7064db91"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\3-1.png": {
+      "time": 1711644684050.7307,
+      "uuid": "ad7c2d42-a7b4-49e5-8695-4f12aee63e2e"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\3.png": {
+      "time": 1711644684050.7307,
+      "uuid": "9033214c-9ace-4534-abac-2e3779d8d3fb"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\4.png": {
+      "time": 1711644684052.626,
+      "uuid": "7cc805b1-5d5a-4e86-a4b3-1c0b67a18ae3"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\5.png": {
+      "time": 1711644684053.8274,
+      "uuid": "d60507f7-26b9-4e9b-a032-a7f5f44d5c17"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\6.png": {
+      "time": 1711644684054.8313,
+      "uuid": "bad0fdc2-5af4-43b7-9f12-17d439d39852"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\7.png": {
+      "time": 1711644684055.8308,
+      "uuid": "c6574849-0f2b-4ed8-8c51-951766a69d0c"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\8.png": {
+      "time": 1711644684056.8318,
+      "uuid": "ecf9611b-c9e0-491a-8049-a937d0bb69ff"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\9.png": {
+      "time": 1711644684057.8308,
+      "uuid": "519a1bb4-b63e-46e8-beea-35663070420a"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile006.png": {
+      "time": 1711644684122.0671,
+      "uuid": "e429b04c-7492-4bbe-ba47-af8331830506"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile007.png": {
+      "time": 1711644684123.073,
+      "uuid": "2db314ac-fd1d-4958-bb38-a584dd7fbb94"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile008.png": {
+      "time": 1711644684123.073,
+      "uuid": "6245a972-deec-48e2-8214-d1c98b1385a6"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile009.png": {
+      "time": 1711644684124.5403,
+      "uuid": "9775be50-b530-47fc-ac81-d7a55e4754f2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile010.png": {
+      "time": 1711644684125.5435,
+      "uuid": "e4844504-d252-4337-9c62-a7478c624439"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile011.png": {
+      "time": 1711644684125.5435,
+      "uuid": "7eb7b92f-6580-4740-a99b-104636dd81de"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\1.png": {
+      "time": 1711644684142.1577,
+      "uuid": "7a9fae2c-ca38-4b8b-8414-2ce0c7bface9"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\2.png": {
+      "time": 1711644684143.1565,
+      "uuid": "ed221174-3430-402f-94c1-63f3f8715339"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\3.png": {
+      "time": 1711644684144.157,
+      "uuid": "3180270b-daec-4fcd-945b-3185d4922557"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\4.png": {
+      "time": 1711644684145.4465,
+      "uuid": "18d518d3-9d49-4c10-b8dd-6f14c8290153"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\5.png": {
+      "time": 1711644684146.4514,
+      "uuid": "dc34080c-2b2e-4168-8553-09796ed2f2b8"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\6.png": {
+      "time": 1711644684147.5906,
+      "uuid": "c77508ca-fe32-4909-942f-18436ac1da84"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\79338b97-66e9-46f3-90e5-0a2df786a579.698bb-fotor-20240319152510.png": {
+      "time": 1711644684147.5906,
+      "uuid": "6f717fe8-0a45-4940-bfa5-aa5463dce432"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\79aa889d-f66e-4788-b2db-a1ae1e709d13.97573-fotor-20240319153559.png": {
+      "time": 1711644684148.594,
+      "uuid": "7796ae14-b0d1-4d2a-811b-75006a01deea"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\gray.png": {
+      "time": 1711644684151.5945,
+      "uuid": "e17cd5b8-745b-49de-94ad-3bdcc40c5d77"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\line1.png": {
+      "time": 1711644684152.5942,
+      "uuid": "a434e0fa-ccba-47ee-9439-8d24b69fceb2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\LingGray.png": {
+      "time": 1711644684149.5938,
+      "uuid": "4a58e1ca-fa95-441f-b347-57e34831baa1"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\LingningHis.png": {
+      "time": 1711644684149.5938,
+      "uuid": "12206bb9-0271-406b-a7a0-6bd49df15f45"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\Rank1.png": {
+      "time": 1711644684150.5933,
+      "uuid": "c7521b91-6994-4648-8e6d-d964a067b1a2"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\rank2.png": {
+      "time": 1711644684152.5942,
+      "uuid": "19b66bcd-76b7-492d-87a1-2dadc9cdfed8"
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dick.anim.meta": {
+      "time": 1711644683958.7275
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\LigningGray.anim.meta": {
+      "time": 1711644683961.7268
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\LighHis.anim.meta": {
+      "time": 1711644683960.7263
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Loading.anim.meta": {
+      "time": 1711644683961.7268
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\plateIn.anim.meta": {
+      "time": 1711644683967.2236
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\ResTableOff.anim.meta": {
+      "time": 1711644683962.726
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\ResTbOn.anim.meta": {
+      "time": 1711644683963.7495
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\TableLogin.anim.meta": {
+      "time": 1711644683963.7495
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\TableLoginoff.anim.meta": {
+      "time": 1711644683965.2197
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\coin.png.meta": {
+      "time": 1711644683967.2236
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\coin.plist.meta": {
+      "time": 1711644683966.2234
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\BackgorundSound.mp4.meta": {
+      "time": 1711644683969.2234
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\backgroundMusic.mp3.meta": {
+      "time": 1711644683988.634
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\ButtonMusic.png.meta": {
+      "time": 1711644683970.2234
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\clickSound.mp3.meta": {
+      "time": 1711644683988.634
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\BetSound.mp3.meta": {
+      "time": 1711644683970.2234
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\sicbo-font.fnt.meta": {
+      "time": 1711644684002.106
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\DiceSound.mp3.meta": {
+      "time": 1711644683972.6343
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\plateIn.mp3.meta": {
+      "time": 1711644683989.6338
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\ressultSound.mp3.meta": {
+      "time": 1711644683991.7654
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Audio\\StatusMusic.png.meta": {
+      "time": 1711644683973.6355
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\SVN-Franko.ttf.meta": {
+      "time": 1711644683993.7664
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-1.fnt.meta": {
+      "time": 1711644683995.1033
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-2.fnt.meta": {
+      "time": 1711644683999.1074
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\sicbo-font.png.meta": {
+      "time": 1711644684005.4004
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-1.png.meta": {
+      "time": 1711644683998.1062
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Font\\Unnamed-2.png.meta": {
+      "time": 1711644684002.106
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Aroww.png.meta": {
+      "time": 1711644684025.782
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect 13.png.meta": {
+      "time": 1711644684186.1638
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\abstract-surface-textures-white-concrete-stone-wall_74190-8189.png.meta": {
+      "time": 1711644684185.1648
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 1.png.meta": {
+      "time": 1711644684196.5454
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 14.png.meta": {
+      "time": 1711644684199.546
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 13.png.meta": {
+      "time": 1711644684198.546
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 15.png.meta": {
+      "time": 1711644684201.684
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 12.png.meta": {
+      "time": 1711644684197.5479
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 2.png.meta": {
+      "time": 1711644684204.0923
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 16.png.meta": {
+      "time": 1711644684201.684
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 43.png.meta": {
+      "time": 1711644684206.0923
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 5.png.meta": {
+      "time": 1711644684207.0913
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 52.png.meta": {
+      "time": 1711644684208.092
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 3.png.meta": {
+      "time": 1711644684206.0923
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 54.png.meta": {
+      "time": 1711644684209.0918
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 56.png.meta": {
+      "time": 1711644684209.0918
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 6.png.meta": {
+      "time": 1711644684210.0923
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral\\material.mtl.meta": {
+      "time": 1711644684007.401
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 66.png.meta": {
+      "time": 1711644684211.0923
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral\\physics-material.pmtl.meta": {
+      "time": 1711644684008.4004
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\table 7.png.meta": {
+      "time": 1711644684211.0923
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Prefab\\Black.prefab.meta": {
+      "time": 1711644684008.4004
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Untitled-1.png.meta": {
+      "time": 1711644684184.1636
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Matiral\\effect 1 (1).png.meta": {
+      "time": 1711644684006.4004
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\PrefabsEf\\Particle2D.prefab.meta": {
+      "time": 1711644684009.401
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scene\\Game.scene.meta": {
+      "time": 1711644684017.3997
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Scene\\Login.scene.meta": {
+      "time": 1711644684019.4006
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\BOOM.anim.meta": {
+      "time": 1711644683949.119
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\13dbcc05-9c74-4606-870c-be9475b2a2cb.90faf-fotor-20240327111823.png.meta": {
+      "time": 1711644683946.3838
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\13dbcc05-9c74-4606-870c-be9475b2a2cb.90faf-fotor-20240327154225.png.meta": {
+      "time": 1711644683947.7002
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\13dbcc05-9c74-4606-870c-be9475b2a2cb.90faf-fotor-20240327154317.png.meta": {
+      "time": 1711644683949.119
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\DiceAni.anim.meta": {
+      "time": 1711644683950.4478
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\effect.anim.meta": {
+      "time": 1711644683956.7234
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\effect1.anim.meta": {
+      "time": 1711644683957.7273
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\dice.png.meta": {
+      "time": 1711644683955.4775
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\effect2.anim.meta": {
+      "time": 1711644683957.7273
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Effect\\Light.anim.meta": {
+      "time": 1711644683959.7268
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Effect\\WinoverLining.anim.meta": {
+      "time": 1711644683960.7263
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 1.png.meta": {
+      "time": 1711644684026.781
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 11.png.meta": {
+      "time": 1711644684028.7822
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 12.png.meta": {
+      "time": 1711644684029.7825
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 10.png.meta": {
+      "time": 1711644684027.7837
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 14.png.meta": {
+      "time": 1711644684030.7825
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 13.png.meta": {
+      "time": 1711644684030.7825
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 15.png.meta": {
+      "time": 1711644684031.7812
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 2.png.meta": {
+      "time": 1711644684033.172
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 3.png.meta": {
+      "time": 1711644684034.1765
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 4.png.meta": {
+      "time": 1711644684036.3533
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 6.png.meta": {
+      "time": 1711644684037.353
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 5.png.meta": {
+      "time": 1711644684037.353
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 8.png.meta": {
+      "time": 1711644684039.3555
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 7.png.meta": {
+      "time": 1711644684038.3557
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Dice\\dice 9.png.meta": {
+      "time": 1711644684040.3557
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 1 (1).png.meta": {
+      "time": 1711644684188.4348
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 12.png.meta": {
+      "time": 1711644684191.546
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 1.png.meta": {
+      "time": 1711644684190.5425
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 13.png.meta": {
+      "time": 1711644684192.5452
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\effect\\effect 15.png.meta": {
+      "time": 1711644684193.5454
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Animation\\Dice\\dice.plist.meta": {
+      "time": 1711644683951.4524
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 10.png.meta": {
+      "time": 1711644684070.4236
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 13.png.meta": {
+      "time": 1711644684077.4768
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 14.png.meta": {
+      "time": 1711644684079.735
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 11.png.meta": {
+      "time": 1711644684073.4236
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 15.png.meta": {
+      "time": 1711644684082.7344
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318114433.png.meta": {
+      "time": 1711644684060.1558
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\photo_2024-03-18_10-57-21@3x 16.png.meta": {
+      "time": 1711644684086.7346
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318114615.png.meta": {
+      "time": 1711644684061.1597
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-2024031811498.png.meta": {
+      "time": 1711644684061.1597
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318132312.png.meta": {
+      "time": 1711644684067.419
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-2024031811550.png.meta": {
+      "time": 1711644684064.1624
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318132212.png.meta": {
+      "time": 1711644684065.16
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318115411.png.meta": {
+      "time": 1711644684063.1592
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\SpriteNew-fotor-20240318115131.png.meta": {
+      "time": 1711644684062.1592
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\27f990fd-8798-4e57-9a15-7629dc747038.65093-fotor-20240326105659.png.meta": {
+      "time": 1711644684089.9075
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\1.png.meta": {
+      "time": 1711644684088.7632
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\2.png.meta": {
+      "time": 1711644684088.7632
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\3.png.meta": {
+      "time": 1711644684090.9116
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\4.png.meta": {
+      "time": 1711644684092.1184
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\5.png.meta": {
+      "time": 1711644684093.1228
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\7.png.meta": {
+      "time": 1711644684095.1223
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Loading\\6.png.meta": {
+      "time": 1711644684094.1216
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\750x750bb.png.meta": {
+      "time": 1711644684098.5908
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\LoginButton.png.meta": {
+      "time": 1711644684099.596
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\LoginTitle.png.meta": {
+      "time": 1711644684100.596
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\logo.png.meta": {
+      "time": 1711644684109.1233
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\background.png.meta": {
+      "time": 1711644684104.96
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\regButton.png.meta": {
+      "time": 1711644684110.1248
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\ResTile.png.meta": {
+      "time": 1711644684100.596
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Login\\resTitle.png.meta": {
+      "time": 1711644684111.1233
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\100k.png.meta": {
+      "time": 1711644684112.1235
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\10k.png.meta": {
+      "time": 1711644684114.1294
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\10M.png.meta": {
+      "time": 1711644684113.127
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\1k.png.meta": {
+      "time": 1711644684115.525
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\20M.png.meta": {
+      "time": 1711644684116.5283
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\500k.png.meta": {
+      "time": 1711644684117.651
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\50k.png.meta": {
+      "time": 1711644684119.6533
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\50M.png.meta": {
+      "time": 1711644684118.6543
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Money\\5M.png.meta": {
+      "time": 1711644684120.6533
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\backgroundHistory.png.meta": {
+      "time": 1711644684126.9631
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\black.png.meta": {
+      "time": 1711644684127.9673
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\boardHistoryPage2.png.meta": {
+      "time": 1711644684128.9663
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\boardResults.png.meta": {
+      "time": 1711644684129.967
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\muiten.png.meta": {
+      "time": 1711644684129.967
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\table2.png.meta": {
+      "time": 1711644684132.3987
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\white.png.meta": {
+      "time": 1711644684132.3987
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\6698d124-9e39-4ebd-b3f4-4825aea70e40.ab12e.png.meta": {
+      "time": 1711644684133.398
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc (1)-fotor-20240319134515.png.meta": {
+      "time": 1711644684134.889
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc-fotor-20240319113544.png.meta": {
+      "time": 1711644684137.9106
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc-fotor-20240319114246.png.meta": {
+      "time": 1711644684137.9106
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\71590457-a206-4570-af28-703f391219ab.17ddc-fotor-20240319114447.png.meta": {
+      "time": 1711644684138.9106
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\826aa8f8-eeaf-469f-8498-bf3669aa8eb6.726ba-fotor-2024031914742.png.meta": {
+      "time": 1711644684139.9116
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\a86f25b7-c25c-45f7-9286-f8c33cf36a17.50e7d.png.meta": {
+      "time": 1711644684157.4265
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\Avatar.png.meta": {
+      "time": 1711644684141.1533
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\btn_close_popup_uudainaptien3pt.png.meta": {
+      "time": 1711644684158.4268
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\Config.png.meta": {
+      "time": 1711644684141.1533
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\config2.png.meta": {
+      "time": 1711644684159.427
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\config3.png.meta": {
+      "time": 1711644684160.4304
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\LineUser.png.meta": {
+      "time": 1711644684154.0679
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\cup.png.meta": {
+      "time": 1711644684161.427
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\LoginTable.png.meta": {
+      "time": 1711644684155.4236
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 17.png.meta": {
+      "time": 1711644684162.4272
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 23.png.meta": {
+      "time": 1711644684164.6494
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 20.png.meta": {
+      "time": 1711644684163.427
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 22.png.meta": {
+      "time": 1711644684163.427
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 24.png.meta": {
+      "time": 1711644684164.6494
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 30.png.meta": {
+      "time": 1711644684165.652
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 4.png.meta": {
+      "time": 1711644684169.5535
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 31.png.meta": {
+      "time": 1711644684165.652
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 32.png.meta": {
+      "time": 1711644684167.0923
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 41.png.meta": {
+      "time": 1711644684170.5527
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 46.png.meta": {
+      "time": 1711644684171.554
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 47.png.meta": {
+      "time": 1711644684172.5542
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 50.png.meta": {
+      "time": 1711644684173.5532
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 59.png.meta": {
+      "time": 1711644684173.5532
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 60.png.meta": {
+      "time": 1711644684174.553
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 64.png.meta": {
+      "time": 1711644684176.969
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 62.png.meta": {
+      "time": 1711644684175.965
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 67.png.meta": {
+      "time": 1711644684178.1584
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table 65.png.meta": {
+      "time": 1711644684176.969
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\tanl.png.meta": {
+      "time": 1711644684183.164
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\10.png.meta": {
+      "time": 1711644684042.3552
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table-blue 9.png.meta": {
+      "time": 1711644684182.1636
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\11.png.meta": {
+      "time": 1711644684043.4146
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\table-blue 2.png.meta": {
+      "time": 1711644684181.1646
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\12.png.meta": {
+      "time": 1711644684044.4202
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\14.png.meta": {
+      "time": 1711644684045.8513
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\16.png.meta": {
+      "time": 1711644684047.3416
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\13.png.meta": {
+      "time": 1711644684044.4202
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\15.png.meta": {
+      "time": 1711644684045.8513
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\17.png.meta": {
+      "time": 1711644684048.4214
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\18-1.png.meta": {
+      "time": 1711644684048.4214
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\18.png.meta": {
+      "time": 1711644684049.7273
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\3.png.meta": {
+      "time": 1711644684052.1223
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\3-1.png.meta": {
+      "time": 1711644684050.7307
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\4.png.meta": {
+      "time": 1711644684052.626
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\5.png.meta": {
+      "time": 1711644684053.8274
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\6.png.meta": {
+      "time": 1711644684054.8313
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\7.png.meta": {
+      "time": 1711644684055.8308
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\9.png.meta": {
+      "time": 1711644684058.8313
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\HistorySprite\\Number\\8.png.meta": {
+      "time": 1711644684057.8308
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile006.png.meta": {
+      "time": 1711644684123.073
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile007.png.meta": {
+      "time": 1711644684123.073
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile008.png.meta": {
+      "time": 1711644684124.5403
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile010.png.meta": {
+      "time": 1711644684125.5435
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile009.png.meta": {
+      "time": 1711644684125.5435
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\Result\\Number\\tile011.png.meta": {
+      "time": 1711644684126.9631
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\1.png.meta": {
+      "time": 1711644684143.1565
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\2.png.meta": {
+      "time": 1711644684144.157
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\3.png.meta": {
+      "time": 1711644684144.157
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\4.png.meta": {
+      "time": 1711644684146.4514
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\6.png.meta": {
+      "time": 1711644684147.5906
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\5.png.meta": {
+      "time": 1711644684146.4514
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\79338b97-66e9-46f3-90e5-0a2df786a579.698bb-fotor-20240319152510.png.meta": {
+      "time": 1711644684148.594
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\79aa889d-f66e-4788-b2db-a1ae1e709d13.97573-fotor-20240319153559.png.meta": {
+      "time": 1711644684148.594
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\gray.png.meta": {
+      "time": 1711644684152.5942
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\line1.png.meta": {
+      "time": 1711644684152.5942
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\Rank1.png.meta": {
+      "time": 1711644684151.5945
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\LingGray.png.meta": {
+      "time": 1711644684149.5938
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\rank2.png.meta": {
+      "time": 1711644684154.0679
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\image\\UI\\DiceHis\\LingningHis.png.meta": {
+      "time": 1711644684150.5933
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Prefab\\Node.prefab.meta": {
+      "time": 1711650118715.2996
+    },
+    "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Prefab\\Node.prefab": {
+      "time": 1711650118713.299,
+      "uuid": "66505f88-51c0-4149-8d52-eae2a3f0190a"
     }
   },
   "missing": {
@@ -8841,6 +10477,16 @@
       "path": "/Users/waostudio/Desktop/GameTx12/assets/Audio/c027e579-7e87-4962-a9d7-4971ea2c2b3b.1c162.mp3",
       "time": 1711597751552.6582,
       "removeTime": 1711597825264
+    },
+    "16d80c63-a204-4190-a875-2b2827c2d6d4": {
+      "path": "/Users/waostudio/Desktop/GameTx12/assets/Font/Fonta",
+      "time": 1710844800000,
+      "removeTime": 1711645036863
+    },
+    "ec5233ff-49f0-41ab-ba67-806a7796248c": {
+      "path": "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\Prefab\\Node.prefab",
+      "time": 1711650102537.788,
+      "removeTime": 1711650111716
     }
   }
 }

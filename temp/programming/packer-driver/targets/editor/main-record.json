@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 5391.883709002286,
+      "mTimestamp": 24981.3424000144,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,11 +640,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5979.894792001694,
+      "mTimestamp": 8034967.50029999,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
-          "value": "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -653,63 +653,63 @@
             },
             "end": {
               "line": 5,
-              "column": 183
+              "column": 167
             }
           }
         },
         {
-          "value": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts",
+          "value": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 5,
-              "column": 199
+              "column": 183
             },
             "end": {
               "line": 5,
-              "column": 281
+              "column": 263
             }
           }
         },
         {
-          "value": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts",
+          "value": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 5,
-              "column": 297
+              "column": 279
             },
             "end": {
               "line": 5,
-              "column": 371
+              "column": 351
             }
           }
         },
         {
-          "value": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts",
+          "value": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 5,
-              "column": 387
+              "column": 367
             },
             "end": {
               "line": 5,
-              "column": 458
+              "column": 436
             }
           }
         },
         {
-          "value": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts",
+          "value": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
               "line": 5,
-              "column": 474
+              "column": 452
             },
             "end": {
               "line": 5,
-              "column": 549
+              "column": 525
             }
           }
         }
@@ -719,35 +719,35 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Audio/AudioController.ts"
+            "url": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/Data/Constant.ts"
+            "url": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameCenter.ts"
+            "url": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/waostudio/Desktop/GameTx12/assets/Scripts/GameController.ts"
+            "url": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts"
           },
           "messages": []
         }
@@ -1222,7 +1222,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1711620294809,
+      "mTimestamp": 1711645003894,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -6644,6 +6644,246 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts": {
+      "mTimestamp": {
+        "mtime": 1711644684020.4016,
+        "uuid": "4b73b3ba-5ca9-426f-9cbc-60bc319f2491"
+      },
+      "chunkId": "7638801f4b9501d918e101177a67944765397e72",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts": {
+      "mTimestamp": {
+        "mtime": 1711644684021.401,
+        "uuid": "4097b394-b0da-4a08-8e07-98880adcc322"
+      },
+      "chunkId": "594d484ab32e23131f1c325fcd0f0127162f781c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts": {
+      "mTimestamp": {
+        "mtime": 1711644684022.7769,
+        "uuid": "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+      },
+      "chunkId": "2c2a0546054010d06a6d1fb998721da2df02bbef",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 74
+            },
+            "end": {
+              "line": 1,
+              "column": 78
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts": {
+      "mTimestamp": {
+        "mtime": 1711653020993.9592,
+        "uuid": "d55873ea-1e98-4bc2-9725-8e32c3f4005a"
+      },
+      "chunkId": "bb974146b39d5e5388156263ce27f31d9807be7d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./Audio/AudioController",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 32
+            },
+            "end": {
+              "line": 29,
+              "column": 57
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts"
           },
           "messages": []
         }
