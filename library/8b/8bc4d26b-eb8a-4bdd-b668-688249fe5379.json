@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "coin",
+    "spriteFrames": [
+      "1",
+      "8bc4d26b-eb8a-4bdd-b668-688249fe5379@c30fb",
+      "2",
+      "8bc4d26b-eb8a-4bdd-b668-688249fe5379@c86cc",
+      "3",
+      "8bc4d26b-eb8a-4bdd-b668-688249fe5379@e7223",
+      "4",
+      "8bc4d26b-eb8a-4bdd-b668-688249fe5379@a795c",
+      "5",
+      "8bc4d26b-eb8a-4bdd-b668-688249fe5379@e7d45",
+      "6",
+      "8bc4d26b-eb8a-4bdd-b668-688249fe5379@116ec",
+      "7",
+      "8bc4d26b-eb8a-4bdd-b668-688249fe5379@855b3"
+    ]
+  }
+}

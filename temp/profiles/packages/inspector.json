@@ -1,0 +1,722 @@
+{
+  "63746e3b-ab31-4f40-bc01-e446ad1c27a3@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "2f705957-2b15-4931-aaad-9ae27fe0db64@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e4befd1a-f181-4c92-a34f-723ee80e17a7@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "c07cfe54-de23-466c-8caf-9b417afcdaa7@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e6ae1272-5c00-499a-8405-ec4af0d266eb@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "4cff96bf-39f7-4644-ad5f-4f361b40ba2a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "fec876de-a4df-4613-9106-9f106485c79c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a7fba019-33cd-4d30-b15a-1f6a017d5e02@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "d4ae3b97-5696-40e5-9845-bd86304abf58@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "17485d87-a422-4770-b494-04413fe0db25@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "024a81d1-9934-4b89-9816-2450fa8f211e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "fcbae24b-d3c9-47d3-9ae8-5579f0e7292b@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a237e136-7fea-49f5-a4b4-1fee47a5416a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ff3dc07d-c14e-4302-a355-e77bc49fe757@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "107da113-56c9-466a-9012-237d77c52af6@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "45eb5c8c-4a5c-4207-a391-61b1c8c04e5e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "82153282-f643-4129-9d71-05b1d0bc7c1e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "fd857159-fefa-43c8-af9d-67fe3b59f9d8@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "f7e41188-77bf-4856-bb65-1294376acf41@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "5d2fc8aa-1f02-4a14-931a-1fdb2f67e138@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "5ffbf828-cf8c-4e19-8bd6-8c43dc4e52d9@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ddceee3d-910f-4f4e-a8f9-299aee4833a1@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "1f5ff0f2-2912-4aad-90ad-a0c41b0008b4@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "006eb36d-8cc1-4f85-a46b-3ccea40f4e74@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "84a0acf4-0f58-44e2-a99b-75a7049225ba@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "bb0dae20-d376-4068-87cc-db9c9e89cd93@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "8f0aa4a4-19f4-4b10-9561-19b9f3818e37@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "95438ab5-b4cf-45f3-8ffe-994c6c4af567@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "8fdaf373-2a3c-41e4-88c7-cdb1fb8d18ff@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "405ef769-2c03-4d79-a35a-93f86528f817@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ff592edf-82b9-4bdf-a85a-3b5fb5092aaa@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "c517b9e3-354a-4e93-a4c4-07672664bb65@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a6a6d80b-ada3-4f0b-8030-48589bf4e862@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "6c0ae258-2fe7-4e9d-91b0-06e37fd46e8d@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "94a34094-9188-465b-833a-b8a0e6ee3222@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "441f020a-c0f9-4938-83ae-74ca0ee714d7@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "1bc753f8-9943-4781-af34-84dc67bbd79a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "33a4aff1-6db0-4215-a47f-4ea3868e78b6@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "9f3c1ac2-d6d4-45a4-a51c-d5fdad33fc47@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "fe5107a0-8201-4dac-b19e-778c8fa7984e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "693c0623-b002-44f4-a672-298e53db189e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "bbd429e6-26ca-4e7d-afcc-faa26c6aa35c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e429b04c-7492-4bbe-ba47-af8331830506@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "837dec81-cc21-4b11-84d9-572ff118c94a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "1503e421-6943-4a15-96dc-ca0ebc3c4344@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "04c18c56-0fab-488e-95ab-3b72689580c5@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "9c5833ca-6393-4a3d-8e40-325f51d61f49@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "03b538e7-bde1-4561-aa33-86aa93220640@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "59699505-9157-4eee-8d54-4ac6cd5a4138@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "cb3fb23a-80c6-4166-9061-d3688b8c3f7a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "3c2466c5-5f3c-4765-9a40-4d4eda1d4eac@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ad7c2d42-a7b4-49e5-8695-4f12aee63e2e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a305cf6e-e9b9-4f06-bc5d-1a22b6fe1b81@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "7cc805b1-5d5a-4e86-a4b3-1c0b67a18ae3@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ecf9611b-c9e0-491a-8049-a937d0bb69ff@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "9033214c-9ace-4534-abac-2e3779d8d3fb@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "b735d796-77ed-43c8-9d15-e86c7064db91@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "d60507f7-26b9-4e9b-a032-a7f5f44d5c17@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "bad0fdc2-5af4-43b7-9f12-17d439d39852@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "c6574849-0f2b-4ed8-8c51-951766a69d0c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "519a1bb4-b63e-46e8-beea-35663070420a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "0f0b3c2c-7abd-4478-8961-fd98c392c9a5@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ace47f10-68dd-4e03-bfc1-59e477616a5e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "09b87f8e-4d99-4374-b029-2da653e5edd2@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "71386c25-5c6d-484f-acc3-ec1fecabfbf2@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "634d302c-15c5-4ac7-ad62-70c526382b88@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a22ee408-655a-4efd-8b84-34f93c0dc95e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "440c54c1-4e90-48d1-b0f1-f122105dd7a9@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "8117ec14-1555-4323-b0dc-05e6a57f5879@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "781d0bab-d8c1-44f6-9a40-99ae6c8c711b@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "064ef833-8ab8-4414-bbc9-0fd9203f503b@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e197a31d-c111-4fd1-a8fb-d042f5a42eee@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a9e28612-ae13-411c-b7b4-8491cd047b5c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "77788d26-0bdf-4f69-9f8c-3985fe915627@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "4fdaa77b-eb30-4fd8-a62f-12c79e460c19@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e117610f-b06b-4cc2-bf2a-713b202b0c6f@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "1b752595-eca8-478f-b4e7-e41327cda1d3@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "4a5a81f7-3da5-44ff-a2f8-8e1170d14370@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "55b50f47-a8f9-4c06-8373-a0bb908629f1@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "3375cfe0-fd10-4bad-bb98-a443189b8a4f@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "610084f0-62ec-4f32-b934-9e32badea39c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "5863f166-2f0b-49d1-bf53-9d507b9e8c08@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "632073ab-ade5-4396-aa44-2ed222c27eec@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "df96aa01-db36-4698-8c09-e364f4a60f9d@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "4cf158ec-da8c-4017-b959-d4f3d82160d5@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "262506b0-4742-4494-bbf5-981c32869e6a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "100111d6-a213-4ade-9fc7-9ded7510f585@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "fa212c15-f483-4f58-95c2-8d58f791c3e0@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "106ae4ec-02ce-4d9c-98b1-c411a426ff00@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "39bb9bff-3fed-4cbd-815d-10bcae2411bd@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ed221174-3430-402f-94c1-63f3f8715339@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "3180270b-daec-4fcd-945b-3185d4922557@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ef590036-c31b-4d9d-9e0c-375c7a50b1d9@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "18d518d3-9d49-4c10-b8dd-6f14c8290153@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "dc34080c-2b2e-4168-8553-09796ed2f2b8@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "c77508ca-fe32-4909-942f-18436ac1da84@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "7a9fae2c-ca38-4b8b-8414-2ce0c7bface9@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e42c2599-0ac4-4807-b55d-cd2b3ecfb21e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "448de637-a24a-446f-9176-cabe3abf3988@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "447d7211-2466-4c54-b399-6e296f7c649c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "6502e433-58c7-427b-832a-767e04e2dc38@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "5ba9c4c5-8552-455c-9ad8-cc85992ab1c2@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "31e622ad-a09e-4dd4-8ce3-7e23b52486fa@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "937064b3-f29d-4b83-98ea-5eab12c9f8ab@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "b1485726-e914-4b03-a1de-c96ec8ce60cb@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "26f1c858-baf5-4bf0-a627-4b8c005cf0f8@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "12206bb9-0271-406b-a7a0-6bd49df15f45@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "4a58e1ca-fa95-441f-b347-57e34831baa1@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a434e0fa-ccba-47ee-9439-8d24b69fceb2@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e17cd5b8-745b-49de-94ad-3bdcc40c5d77@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "9d9304c7-a7fa-41c7-8e21-a5b22e699639@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "6d8573ad-126d-44e1-a72e-a9d032d6fda0@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "538deac2-d139-473a-9863-73373b905ecf@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ec244b85-0b16-4909-babd-3dfcebd9e1ad@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a091de0a-0335-424c-9140-723b1229968c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "b657b7f5-cfed-4e9d-bca5-da8a3948b8a6@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "c155e90b-fe3e-4ac2-b4c1-cbb7d353d9a9@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "97f4effc-5616-461c-8d8f-7644db9fdd3a@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "82c9f934-e79c-44b6-accd-5d87cd8d9e11@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "f92b11e1-610c-4515-bdf4-a5cf28bb5630@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "a3d2486e-efe1-4dfa-87de-c4433401de41@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "6a7a2bbf-870a-4f2a-890f-345d7197d5c4@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "65709975-ee1d-4ab0-87f9-f0a4e65c842f@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "c2737777-9a49-44fe-88f6-77618a4dfd51@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "1d5fcb0e-4fc0-4ed0-acf4-82342ed83b39@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "af9a01b9-74b3-4f0c-9af4-c59c7448bbeb@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e0369e46-d936-496c-801f-589b1b29b366@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "d3c0fda4-27df-41cd-a52a-056f60a01d43@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "74f20f42-0475-4a09-be81-1866d3b48158@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "18ba6b2c-76c1-4137-beec-cabdb62c1a2e@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "217c7513-5d4c-4d01-b750-1f2953d5ba21@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "b41db981-56e4-46c2-872d-6aac0e56c992@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "094bae72-c429-49a6-9387-94589d2b0f7d@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e0065723-4c0d-44b3-bd2f-cff02dc1aab2@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "c5d33264-e074-4fe6-8828-68e6e5d6c363@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "9794a22e-b108-4092-ab41-ae2cbdb502f3@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "ca7e3f88-bf73-4fcb-9673-97e141eebae2@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "35ba52f2-f662-42fe-b2b2-8380606a6d1c@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "e9ce5899-af37-4b40-bc49-2549464bcda8@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "f23343d5-ab5d-4c1f-9225-7cbc73c23411@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "83f60ea1-e68a-40c9-9d5c-66d583c76dd1@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "32dfce5f-8242-4432-8cde-339bd83456d8@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  },
+  "b251adad-a64a-48af-9162-a2e1725b4cd1@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
+  }
+}

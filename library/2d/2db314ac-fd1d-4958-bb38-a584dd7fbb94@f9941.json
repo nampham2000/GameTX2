@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tile007",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 33,
+      "height": 21
+    },
+    "offset": {
+      "x": 0,
+      "y": 2.5
+    },
+    "originalSize": {
+      "width": 33,
+      "height": 26
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -16.5,
+        -10.5,
+        0,
+        16.5,
+        -10.5,
+        0,
+        -16.5,
+        10.5,
+        0,
+        16.5,
+        10.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        26,
+        33,
+        26,
+        0,
+        5,
+        33,
+        5
+      ],
+      "nuv": [
+        0,
+        0.19230769230769232,
+        1,
+        0.19230769230769232,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -16.5,
+        "y": -10.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 16.5,
+        "y": 10.5,
+        "z": 0
+      }
+    },
+    "texture": "2db314ac-fd1d-4958-bb38-a584dd7fbb94@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

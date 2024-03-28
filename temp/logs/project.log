@@ -1,0 +1,18 @@
+3-28-2024 17:04:54 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+3-28-2024 17:04:54 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+3-28-2024 17:04:54 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+3-28-2024 17:05:01 - log: [Scene] meshopt wasm decoder initialized
+3-28-2024 17:05:01 - log: [Scene] [box2d]:box2d wasm lib loaded.
+3-28-2024 17:05:01 - log: [Scene] [bullet]:bullet wasm lib loaded.
+3-28-2024 17:05:01 - log: [Scene] [PHYSICS]: using builtin.
+3-28-2024 17:05:01 - log: [Scene] Cocos Creator v3.8.2
+3-28-2024 17:05:01 - info: [Scene] Forward render pipeline initialized.
+3-28-2024 17:05:01 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/GameTx12/temp/programming/packer-driver/targets/editor/chunks/2d/2d50df6184274cd7ae384865aa5c67bbda8674cb.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+3-28-2024 17:05:01 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
