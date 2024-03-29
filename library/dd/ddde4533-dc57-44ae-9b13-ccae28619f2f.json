@@ -12188,7 +12188,7 @@
         "__id__": 1182
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 1187
@@ -60678,8 +60678,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
+      "x": -504.851,
+      "y": -339.879,
       "z": 0
     },
     "_lrot": {
@@ -62988,6 +62988,8 @@
     },
     "asset": null,
     "fileId": "ddde4533-dc57-44ae-9b13-ccae28619f2f",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": [
       {
         "__id__": 80

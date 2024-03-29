@@ -12,10 +12,10 @@
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "C:\\Users\\Admin\\Desktop\\Gametx2\\assets\\*"
+        "/Users/waostudio/Desktop/tx2/assets/*"
       ]
     },
     "experimentalDecorators": true,

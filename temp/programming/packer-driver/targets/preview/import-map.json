@@ -2,11 +2,11 @@
   "imports": {
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
-    "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js",
-    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Audio/AudioController.ts": "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js",
-    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/Data/Constant.ts": "./chunks/59/594d484ab32e23131f1c325fcd0f0127162f781c.js",
-    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameCenter.ts": "./chunks/2c/2c2a0546054010d06a6d1fb998721da2df02bbef.js",
-    "file:///C:/Users/Admin/Desktop/Gametx2/assets/Scripts/GameController.ts": "./chunks/bb/bb974146b39d5e5388156263ce27f31d9807be7d.js"
+    "file:///Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js",
+    "file:///Users/waostudio/Desktop/tx2/assets/Scripts/Audio/AudioController.ts": "./chunks/ec/ecc108a08d1d8113e787515ffde57bcbb3ab8408.js",
+    "file:///Users/waostudio/Desktop/tx2/assets/Scripts/Data/Constant.ts": "./chunks/06/0659296e8e10a033a395d8f778a4e67ef7c8b7e9.js",
+    "file:///Users/waostudio/Desktop/tx2/assets/Scripts/GameCenter.ts": "./chunks/89/89c69df6e3d5878ce863fe7f919d39a7eb3f1414.js",
+    "file:///Users/waostudio/Desktop/tx2/assets/Scripts/GameController.ts": "./chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js"
   },
   "scopes": {
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -31,27 +31,27 @@
       "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
-      "__unresolved_0": "./chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js",
-      "__unresolved_1": "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js",
-      "__unresolved_2": "./chunks/59/594d484ab32e23131f1c325fcd0f0127162f781c.js",
-      "__unresolved_3": "./chunks/2c/2c2a0546054010d06a6d1fb998721da2df02bbef.js",
-      "__unresolved_4": "./chunks/bb/bb974146b39d5e5388156263ce27f31d9807be7d.js"
+      "__unresolved_0": "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js",
+      "__unresolved_1": "./chunks/ec/ecc108a08d1d8113e787515ffde57bcbb3ab8408.js",
+      "__unresolved_2": "./chunks/06/0659296e8e10a033a395d8f778a4e67ef7c8b7e9.js",
+      "__unresolved_3": "./chunks/89/89c69df6e3d5878ce863fe7f919d39a7eb3f1414.js",
+      "__unresolved_4": "./chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js"
     },
-    "./chunks/bb/bb974146b39d5e5388156263ce27f31d9807be7d.js": {
+    "./chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
-      "__unresolved_1": "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js",
+      "__unresolved_1": "./chunks/ec/ecc108a08d1d8113e787515ffde57bcbb3ab8408.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/76/7638801f4b9501d918e101177a67944765397e72.js": {
+    "./chunks/ec/ecc108a08d1d8113e787515ffde57bcbb3ab8408.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/2c/2c2a0546054010d06a6d1fb998721da2df02bbef.js": {
+    "./chunks/89/89c69df6e3d5878ce863fe7f919d39a7eb3f1414.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/59/594d484ab32e23131f1c325fcd0f0127162f781c.js": {
+    "./chunks/06/0659296e8e10a033a395d8f778a4e67ef7c8b7e9.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
-    "./chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js": {
+    "./chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     }
   }
