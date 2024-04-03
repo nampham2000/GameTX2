@@ -25,6 +25,7 @@ import {
   Event,
   log,
   director,
+  Vec2,
 } from "cc";
 import { AudioController } from "./Audio/AudioController";
 
@@ -456,6 +457,10 @@ export class GameC extends Component {
   private loggedInUsername;
   private offMusic: boolean = true;
   numPrefabsCreated = 0;
+  private currentCol = 0;
+  private currentRow = 0;
+  previousPrefabType = null;
+  jumpToNextColumn = false;
 
   private lineGraphicsArray: Graphics[] = [];
 
@@ -468,10 +473,16 @@ export class GameC extends Component {
   @property(Prefab)
   private Under: Prefab = null;
 
+  // private numRows: number = 6;
+  // private numCols: number = 20;
+  // private cellSize: number = 50; // Kích thước mỗi ô
+  // private grid: Node[][] = [];
+
   private numRows: number = 6;
   private numCols: number = 20;
-  private cellSize: number = 50; // Kích thước mỗi ô
-  private grid: Node[][] = [];
+  private cellWidth: number = 50;
+  private cellHeight: number = 50;
+
   start() {
     this.loggedInUsername = window["loggedInUsername"];
     const userInfo = this.getUsernameAndBalanceFromLocalStorage(
@@ -564,157 +575,75 @@ export class GameC extends Component {
     // input.on(Input.EventType.KEY_DOWN,this.onKeyDown,this);
   }
 
-  //   createGrid() {
-  //     if (this.numPrefabsCreated >= this.numRows * this.numCols) {
-  //         return;
-  //     }
-  //     const col = Math.floor(this.numPrefabsCreated / this.numRows);
-  //     const row = this.numPrefabsCreated % this.numRows;
+  update(deltaTime: number) {
+    this.BalanceNumber.string = this.balanceUser.toString();
 
-  //     if (!this.grid[row]) {
-  //         this.grid[row] = [];
-  //     }
-
-  //     let prefabType = (this.sum <= 10) ? this.Under : this.Over;
-  //     const cell = instantiate(prefabType);
-  //     cell.parent = this.pref;
-  //     cell.setPosition(new Vec3(col * this.cellSize, (this.numRows - 1 - row) * this.cellSize, 0));
-  //     this.grid[row].push(cell);
-  //     this.numPrefabsCreated++;
-
-  //     if (col === this.numCols - 1) {
-  //         this.numPrefabsCreated += this.numRows - 1;
-  //     }
-  // }
-
-  // createGrid() {
-  //   if (this.numPrefabsCreated >= this.numRows * this.numCols) {
-  //     return;
-  //   }
-  //   let col = Math.floor(this.numPrefabsCreated / this.numRows);
-  //   let row = this.numPrefabsCreated % this.numRows;
-
-  //   if (!this.grid[row]) {
-  //     this.grid[row] = [];
-  //   }
-
-  //   let prevRowPrefabType = null;
-  //   let prefabType = this.sum <= 10 ? this.Under : this.Over;
-
-  //   if (row > 0) {
-  //     if (row > 0 && this.grid[row - 1] && this.grid[row - 1][col]) {
-  //       prevRowPrefabType = this.grid[row - 1][col];
-  //     } // Lưu loại prefab của hàng trước đó
-  //   }
-
-  //   const cell = instantiate(prefabType);
-
-  //   // Kiểm tra xem prefab không phải là prefab đầu tiên trong cột
-  //   if (prevRowPrefabType && prefabType.name !== prevRowPrefabType.name) {
-  //     console.log("aaa");
-
-  //     const nextCol = col + 1;
-  //     const nextRow = 0;
-  //     cell.parent = this.pref;
-  //     cell.setPosition(
-  //       new Vec3(
-  //         nextCol * this.cellSize,
-  //         (this.numRows - 1 - nextRow) * this.cellSize,
-  //         0
-  //       )
-  //     );
-  //     if (!this.grid[nextRow]) {
-  //       this.grid[nextRow] = [];
-  //     }
-  //     this.grid[nextRow].push(cell);
-  //     this.numPrefabsCreated++;
-  //   } else {
-  //     cell.parent = this.pref;
-  //     cell.setPosition(
-  //       new Vec3(
-  //         col * this.cellSize,
-  //         (this.numRows - 1 - row) * this.cellSize,
-  //         0
-  //       )
-  //     );
-  //   }
-
-  //   this.grid[row].push(cell);
-  //   this.numPrefabsCreated++;
-
-  //   if (col === this.numCols - 1) {
-  //     // Cập nhật lại giá trị của numPrefabsCreated để bắt đầu từ cột mới
-  //     this.numPrefabsCreated += this.numRows - 1;
-  //   }
-  // }
-  createGrid() {
-    if (this.numPrefabsCreated >= this.numRows * this.numCols) {
-      return;
+    if (this.gameEnd === false) {
+      this.totalBetOver = this.totalBetOver + math.randomRangeInt(1000, 10000);
+      this.totalBetUnder =
+        this.totalBetUnder + math.randomRangeInt(1000, 10000);
+      this.countPlayerOver = this.countPlayerOver + math.randomRangeInt(1, 10);
+      this.countPlayerUnder =
+        this.countPlayerUnder + math.randomRangeInt(1, 10);
     }
 
-    let col = Math.floor(this.numPrefabsCreated / this.numRows);
-    let row = this.numPrefabsCreated % this.numRows;
-
-    if (!this.grid[row]) {
-      this.grid[row] = [];
+    if (this.gameEnd === true) {
     }
+    this.countDown.string = this.countdownTimerBet.toString();
+    this.countDownResult.string = this.countdownTimerResult.toString();
+  }
 
-    let prevRowPrefabType = null;
+  private createGrid() {
+    // Tạo prefab ở vị trí hiện tại trên grid
     let prefabType = this.sum <= 10 ? this.Under : this.Over;
-    if (row > 0 && this.grid[row - 1] && this.grid[row - 1][col]) {
-      console.log("aaaa");
-      console.log(this.grid[row - 1][col]);
 
-      prevRowPrefabType = this.grid[row - 1][col];
-    } // Lưu loại prefab của hàng trước đó
+    // Kiểm tra nếu đã đủ hàng
+    if (this.currentRow >= this.numRows) {
+      // Tăng giá trị cột khi đã đủ hàng
+      this.currentCol++;
+      // Reset chỉ mục hàng về 0
+      this.currentRow = 0;
+
+      // Nếu đã đến cột cuối cùng
+      if (this.currentCol >= this.numCols) {
+        // Clear tất cả các prefabs đã tạo
+        this.clearGrid();
+        // Reset chỉ mục cột về 0
+        this.currentCol = 0;
+      }
+    }
+
+    // Kiểm tra nếu prefabs mới và prefabs trước đó không cùng kiểu
+    if (
+      this.previousPrefabType !== null &&
+      prefabType.name !== this.previousPrefabType.name
+    ) {
+      // Di chuyển sang cột mới và reset chỉ mục hàng hiện tại về 0
+      this.currentCol++;
+      this.currentRow = 0;
+
+      // Nếu đã đến cột cuối cùng
+      if (this.currentCol >= this.numCols) {
+        // Clear tất cả các prefabs đã tạo
+        this.clearGrid();
+        // Reset chỉ mục cột về 0
+        this.currentCol = 0;
+      }
+    }
 
     const cell = instantiate(prefabType);
+    const posX = this.currentCol * this.cellWidth; // Tính vị trí x dựa trên chỉ mục cột hiện tại
+    const posY = -this.currentRow * this.cellHeight; // Tính vị trí y dựa trên chỉ mục hàng hiện tại
+    cell.position = new Vec3(posX, posY);
+    this.pref.addChild(cell);
 
-    // Kiểm tra xem prefab không phải là prefab đầu tiên trong cột
-    console.log(prevRowPrefabType);
-    console.log(prefabType.name);
+    // Cập nhật kiểu của prefab trước đó và chỉ mục hàng hiện tại
+    this.previousPrefabType = prefabType;
+    this.currentRow++;
+  }
 
-    if (
-      row > 0 &&
-      prevRowPrefabType &&
-      prefabType.name !== prevRowPrefabType.name
-    ) {
-      const nextCol = col + 1;
-      const nextRow = 0;
-      cell.parent = this.pref;
-      cell.setPosition(
-        new Vec3(
-          nextCol * this.cellSize,
-          (this.numRows - 1 - nextRow) * this.cellSize,
-          0
-        )
-      );
-      if (!this.grid[nextRow]) {
-        this.grid[nextRow] = [];
-      }
-      this.grid[nextRow].push(cell);
-
-      // Cập nhật numPrefabsCreated cho cột và hàng mới
-      this.numPrefabsCreated = nextCol * this.numRows + nextRow;
-    } else {
-      cell.parent = this.pref;
-      cell.setPosition(
-        new Vec3(
-          col * this.cellSize,
-          (this.numRows - 1 - row) * this.cellSize,
-          0
-        )
-      );
-    }
-    console.log(this.numPrefabsCreated);
-
-    this.grid[row].push(cell);
-    this.numPrefabsCreated++;
-
-    if (col === this.numCols - 1) {
-      // Cập nhật lại giá trị của numPrefabsCreated để bắt đầu từ cột mới
-      this.numPrefabsCreated += this.numRows - 1;
-    }
+  private clearGrid() {
+    this.pref.removeAllChildren();
   }
 
   private addScore(Score: number) {
@@ -798,6 +727,7 @@ export class GameC extends Component {
       this.Effect2.active = true;
       this.startCountdownResult(this.countdownTimerResult, 15);
       this.tkpOver.string = this.formatNumberWithCommas2(this.totalBetOver);
+      this.tkpUnder.string = this.formatNumberWithCommas2(this.totalBetUnder);
       this.tkpUserOver.string = this.countPlayerOver.toString();
       this.tkpUserUnder.string = this.countPlayerUnder.toString();
       for (let i = 0; i < this.tkpTime.length; i++) {
@@ -815,7 +745,7 @@ export class GameC extends Component {
           this.plate.getComponent(Animation).off(Animation.EventType.FINISHED);
 
           if (this.sum < 10) {
-            // this.createGrid();
+            this.createGrid();
             this.updateResults(0);
             this.displayImagesResult();
             this.updateResultsHistory(0);
@@ -846,7 +776,7 @@ export class GameC extends Component {
               console.log("Cập nhật balance thất bại!");
             }
           } else {
-            // this.createGrid();
+            this.createGrid();
             this.updateResults(1);
             this.displayImagesResult();
             this.updateResultsHistory(1);
@@ -1079,6 +1009,30 @@ export class GameC extends Component {
     if (this.ListDice3His.length > 21) {
       this.ListDice3His.shift();
       this.clearLineNode(this.LineNodeDice3);
+    }
+  }
+
+  private activeBetOverbtn() {
+    this.checkOver = true;
+    if (this.checkUnder === true) {
+      this.checkUnder = false;
+    }
+    this.betOverNode.active = true;
+    this.betBarNode.active = true;
+    if (this.betUnderNode.active === true) {
+      this.betUnderNode.active = false;
+    }
+  }
+
+  private activeBetUnderbtn() {
+    this.checkUnder = true;
+    if (this.checkOver === true) {
+      this.checkOver = false;
+    }
+    this.betUnderNode.active = true;
+    this.betBarNode.active = true;
+    if (this.betOverNode.active === true) {
+      this.betOverNode.active = false;
     }
   }
 

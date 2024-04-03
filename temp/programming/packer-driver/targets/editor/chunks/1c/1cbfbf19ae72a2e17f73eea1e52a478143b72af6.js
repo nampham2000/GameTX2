@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, Label, Node, tween, Vec3, Animation, SpriteFrame, Sprite, EditBox, instantiate, Prefab, Graphics, Color, AudioController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _dec34, _dec35, _dec36, _dec37, _dec38, _dec39, _dec40, _dec41, _dec42, _dec43, _dec44, _dec45, _dec46, _dec47, _dec48, _dec49, _dec50, _dec51, _dec52, _dec53, _dec54, _dec55, _dec56, _dec57, _dec58, _dec59, _dec60, _dec61, _dec62, _dec63, _dec64, _dec65, _dec66, _dec67, _dec68, _dec69, _dec70, _dec71, _dec72, _dec73, _dec74, _dec75, _dec76, _dec77, _dec78, _dec79, _dec80, _dec81, _dec82, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32, _descriptor33, _descriptor34, _descriptor35, _descriptor36, _descriptor37, _descriptor38, _descriptor39, _descriptor40, _descriptor41, _descriptor42, _descriptor43, _descriptor44, _descriptor45, _descriptor46, _descriptor47, _descriptor48, _descriptor49, _descriptor50, _descriptor51, _descriptor52, _descriptor53, _descriptor54, _descriptor55, _descriptor56, _descriptor57, _descriptor58, _descriptor59, _descriptor60, _descriptor61, _descriptor62, _descriptor63, _descriptor64, _descriptor65, _descriptor66, _descriptor67, _descriptor68, _descriptor69, _descriptor70, _descriptor71, _descriptor72, _descriptor73, _descriptor74, _descriptor75, _descriptor76, _descriptor77, _descriptor78, _descriptor79, _descriptor80, _descriptor81, _crd, ccclass, property, GameC;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, Label, math, Node, tween, Vec3, Animation, SpriteFrame, Sprite, EditBox, instantiate, Prefab, Graphics, Color, AudioController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _dec34, _dec35, _dec36, _dec37, _dec38, _dec39, _dec40, _dec41, _dec42, _dec43, _dec44, _dec45, _dec46, _dec47, _dec48, _dec49, _dec50, _dec51, _dec52, _dec53, _dec54, _dec55, _dec56, _dec57, _dec58, _dec59, _dec60, _dec61, _dec62, _dec63, _dec64, _dec65, _dec66, _dec67, _dec68, _dec69, _dec70, _dec71, _dec72, _dec73, _dec74, _dec75, _dec76, _dec77, _dec78, _dec79, _dec80, _dec81, _dec82, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32, _descriptor33, _descriptor34, _descriptor35, _descriptor36, _descriptor37, _descriptor38, _descriptor39, _descriptor40, _descriptor41, _descriptor42, _descriptor43, _descriptor44, _descriptor45, _descriptor46, _descriptor47, _descriptor48, _descriptor49, _descriptor50, _descriptor51, _descriptor52, _descriptor53, _descriptor54, _descriptor55, _descriptor56, _descriptor57, _descriptor58, _descriptor59, _descriptor60, _descriptor61, _descriptor62, _descriptor63, _descriptor64, _descriptor65, _descriptor66, _descriptor67, _descriptor68, _descriptor69, _descriptor70, _descriptor71, _descriptor72, _descriptor73, _descriptor74, _descriptor75, _descriptor76, _descriptor77, _descriptor78, _descriptor79, _descriptor80, _descriptor81, _crd, ccclass, property, GameC;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -24,6 +24,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Button = _cc.Button;
       Component = _cc.Component;
       Label = _cc.Label;
+      math = _cc.math;
       Node = _cc.Node;
       tween = _cc.tween;
       Vec3 = _cc.Vec3;
@@ -43,7 +44,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "d5587PqHphLwpcljjLD9ABa", "GameController", undefined);
 
-      __checkObsolete__(['_decorator', 'Button', 'Component', 'Label', 'math', 'Node', 'tween', 'Vec3', 'Animation', 'SpriteFrame', 'Sprite', 'input', 'Input', 'macro', 'EditBox', 'NodeEventType', 'EventKeyboard', 'KeyCode', 'instantiate', 'Prefab', 'Graphics', 'Color', 'SystemEvent', 'Event', 'log', 'director']);
+      __checkObsolete__(['_decorator', 'Button', 'Component', 'Label', 'math', 'Node', 'tween', 'Vec3', 'Animation', 'SpriteFrame', 'Sprite', 'input', 'Input', 'macro', 'EditBox', 'NodeEventType', 'EventKeyboard', 'KeyCode', 'instantiate', 'Prefab', 'Graphics', 'Color', 'SystemEvent', 'Event', 'log', 'director', 'Vec2']);
 
       ({
         ccclass,
@@ -412,6 +413,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.loggedInUsername = void 0;
           this.offMusic = true;
           this.numPrefabsCreated = 0;
+          this.currentCol = 0;
+          this.currentRow = 0;
+          this.previousPrefabType = null;
+          this.jumpToNextColumn = false;
           this.lineGraphicsArray = [];
 
           _initializerDefineProperty(this, "pref", _descriptor79, this);
@@ -420,11 +425,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "Under", _descriptor81, this);
 
+          // private numRows: number = 6;
+          // private numCols: number = 20;
+          // private cellSize: number = 50; // Kích thước mỗi ô
+          // private grid: Node[][] = [];
           this.numRows = 6;
           this.numCols = 20;
-          this.cellSize = 50;
-          // Kích thước mỗi ô
-          this.grid = [];
+          this.cellWidth = 50;
+          this.cellHeight = 50;
         }
 
         start() {
@@ -492,132 +500,70 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             this.createNodeDice3History();
           }, 3000); // this.handleEvent();
           // input.on(Input.EventType.KEY_DOWN,this.onKeyDown,this);
-        } //   createGrid() {
-        //     if (this.numPrefabsCreated >= this.numRows * this.numCols) {
-        //         return;
-        //     }
-        //     const col = Math.floor(this.numPrefabsCreated / this.numRows);
-        //     const row = this.numPrefabsCreated % this.numRows;
-        //     if (!this.grid[row]) {
-        //         this.grid[row] = [];
-        //     }
-        //     let prefabType = (this.sum <= 10) ? this.Under : this.Over;
-        //     const cell = instantiate(prefabType);
-        //     cell.parent = this.pref;
-        //     cell.setPosition(new Vec3(col * this.cellSize, (this.numRows - 1 - row) * this.cellSize, 0));
-        //     this.grid[row].push(cell);
-        //     this.numPrefabsCreated++;
-        //     if (col === this.numCols - 1) {
-        //         this.numPrefabsCreated += this.numRows - 1;
-        //     }
-        // }
-        // createGrid() {
-        //   if (this.numPrefabsCreated >= this.numRows * this.numCols) {
-        //     return;
-        //   }
-        //   let col = Math.floor(this.numPrefabsCreated / this.numRows);
-        //   let row = this.numPrefabsCreated % this.numRows;
-        //   if (!this.grid[row]) {
-        //     this.grid[row] = [];
-        //   }
-        //   let prevRowPrefabType = null;
-        //   let prefabType = this.sum <= 10 ? this.Under : this.Over;
-        //   if (row > 0) {
-        //     if (row > 0 && this.grid[row - 1] && this.grid[row - 1][col]) {
-        //       prevRowPrefabType = this.grid[row - 1][col];
-        //     } // Lưu loại prefab của hàng trước đó
-        //   }
-        //   const cell = instantiate(prefabType);
-        //   // Kiểm tra xem prefab không phải là prefab đầu tiên trong cột
-        //   if (prevRowPrefabType && prefabType.name !== prevRowPrefabType.name) {
-        //     console.log("aaa");
-        //     const nextCol = col + 1;
-        //     const nextRow = 0;
-        //     cell.parent = this.pref;
-        //     cell.setPosition(
-        //       new Vec3(
-        //         nextCol * this.cellSize,
-        //         (this.numRows - 1 - nextRow) * this.cellSize,
-        //         0
-        //       )
-        //     );
-        //     if (!this.grid[nextRow]) {
-        //       this.grid[nextRow] = [];
-        //     }
-        //     this.grid[nextRow].push(cell);
-        //     this.numPrefabsCreated++;
-        //   } else {
-        //     cell.parent = this.pref;
-        //     cell.setPosition(
-        //       new Vec3(
-        //         col * this.cellSize,
-        //         (this.numRows - 1 - row) * this.cellSize,
-        //         0
-        //       )
-        //     );
-        //   }
-        //   this.grid[row].push(cell);
-        //   this.numPrefabsCreated++;
-        //   if (col === this.numCols - 1) {
-        //     // Cập nhật lại giá trị của numPrefabsCreated để bắt đầu từ cột mới
-        //     this.numPrefabsCreated += this.numRows - 1;
-        //   }
-        // }
+        }
 
+        update(deltaTime) {
+          this.BalanceNumber.string = this.balanceUser.toString();
+
+          if (this.gameEnd === false) {
+            this.totalBetOver = this.totalBetOver + math.randomRangeInt(1000, 10000);
+            this.totalBetUnder = this.totalBetUnder + math.randomRangeInt(1000, 10000);
+            this.countPlayerOver = this.countPlayerOver + math.randomRangeInt(1, 10);
+            this.countPlayerUnder = this.countPlayerUnder + math.randomRangeInt(1, 10);
+          }
+
+          if (this.gameEnd === true) {}
+
+          this.countDown.string = this.countdownTimerBet.toString();
+          this.countDownResult.string = this.countdownTimerResult.toString();
+        }
 
         createGrid() {
-          if (this.numPrefabsCreated >= this.numRows * this.numCols) {
-            return;
-          }
+          // Tạo prefab ở vị trí hiện tại trên grid
+          let prefabType = this.sum <= 10 ? this.Under : this.Over; // Kiểm tra nếu đã đủ hàng
 
-          let col = Math.floor(this.numPrefabsCreated / this.numRows);
-          let row = this.numPrefabsCreated % this.numRows;
+          if (this.currentRow >= this.numRows) {
+            // Tăng giá trị cột khi đã đủ hàng
+            this.currentCol++; // Reset chỉ mục hàng về 0
 
-          if (!this.grid[row]) {
-            this.grid[row] = [];
-          }
+            this.currentRow = 0; // Nếu đã đến cột cuối cùng
 
-          let prevRowPrefabType = null;
-          let prefabType = this.sum <= 10 ? this.Under : this.Over;
+            if (this.currentCol >= this.numCols) {
+              // Clear tất cả các prefabs đã tạo
+              this.clearGrid(); // Reset chỉ mục cột về 0
 
-          if (row > 0 && this.grid[row - 1] && this.grid[row - 1][col]) {
-            console.log("aaaa");
-            console.log(this.grid[row - 1][col]);
-            prevRowPrefabType = this.grid[row - 1][col];
-          } // Lưu loại prefab của hàng trước đó
-
-
-          const cell = instantiate(prefabType); // Kiểm tra xem prefab không phải là prefab đầu tiên trong cột
-
-          console.log(prevRowPrefabType);
-          console.log(prefabType.name);
-
-          if (row > 0 && prevRowPrefabType && prefabType.name !== prevRowPrefabType.name) {
-            const nextCol = col + 1;
-            const nextRow = 0;
-            cell.parent = this.pref;
-            cell.setPosition(new Vec3(nextCol * this.cellSize, (this.numRows - 1 - nextRow) * this.cellSize, 0));
-
-            if (!this.grid[nextRow]) {
-              this.grid[nextRow] = [];
+              this.currentCol = 0;
             }
+          } // Kiểm tra nếu prefabs mới và prefabs trước đó không cùng kiểu
 
-            this.grid[nextRow].push(cell); // Cập nhật numPrefabsCreated cho cột và hàng mới
 
-            this.numPrefabsCreated = nextCol * this.numRows + nextRow;
-          } else {
-            cell.parent = this.pref;
-            cell.setPosition(new Vec3(col * this.cellSize, (this.numRows - 1 - row) * this.cellSize, 0));
+          if (this.previousPrefabType !== null && prefabType.name !== this.previousPrefabType.name) {
+            // Di chuyển sang cột mới và reset chỉ mục hàng hiện tại về 0
+            this.currentCol++;
+            this.currentRow = 0; // Nếu đã đến cột cuối cùng
+
+            if (this.currentCol >= this.numCols) {
+              // Clear tất cả các prefabs đã tạo
+              this.clearGrid(); // Reset chỉ mục cột về 0
+
+              this.currentCol = 0;
+            }
           }
 
-          console.log(this.numPrefabsCreated);
-          this.grid[row].push(cell);
-          this.numPrefabsCreated++;
+          const cell = instantiate(prefabType);
+          const posX = this.currentCol * this.cellWidth; // Tính vị trí x dựa trên chỉ mục cột hiện tại
 
-          if (col === this.numCols - 1) {
-            // Cập nhật lại giá trị của numPrefabsCreated để bắt đầu từ cột mới
-            this.numPrefabsCreated += this.numRows - 1;
-          }
+          const posY = -this.currentRow * this.cellHeight; // Tính vị trí y dựa trên chỉ mục hàng hiện tại
+
+          cell.position = new Vec3(posX, posY);
+          this.pref.addChild(cell); // Cập nhật kiểu của prefab trước đó và chỉ mục hàng hiện tại
+
+          this.previousPrefabType = prefabType;
+          this.currentRow++;
+        }
+
+        clearGrid() {
+          this.pref.removeAllChildren();
         }
 
         addScore(Score) {
@@ -686,6 +632,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             this.Effect2.active = true;
             this.startCountdownResult(this.countdownTimerResult, 15);
             this.tkpOver.string = this.formatNumberWithCommas2(this.totalBetOver);
+            this.tkpUnder.string = this.formatNumberWithCommas2(this.totalBetUnder);
             this.tkpUserOver.string = this.countPlayerOver.toString();
             this.tkpUserUnder.string = this.countPlayerUnder.toString();
 
@@ -701,7 +648,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               this.plate.getComponent(Animation).off(Animation.EventType.FINISHED);
 
               if (this.sum < 10) {
-                // this.createGrid();
+                this.createGrid();
                 this.updateResults(0);
                 this.displayImagesResult();
                 this.updateResultsHistory(0);
@@ -724,7 +671,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
                   console.log("Cập nhật balance thất bại!");
                 }
               } else {
-                // this.createGrid();
+                this.createGrid();
                 this.updateResults(1);
                 this.displayImagesResult();
                 this.updateResultsHistory(1);
@@ -972,6 +919,36 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           if (this.ListDice3His.length > 21) {
             this.ListDice3His.shift();
             this.clearLineNode(this.LineNodeDice3);
+          }
+        }
+
+        activeBetOverbtn() {
+          this.checkOver = true;
+
+          if (this.checkUnder === true) {
+            this.checkUnder = false;
+          }
+
+          this.betOverNode.active = true;
+          this.betBarNode.active = true;
+
+          if (this.betUnderNode.active === true) {
+            this.betUnderNode.active = false;
+          }
+        }
+
+        activeBetUnderbtn() {
+          this.checkUnder = true;
+
+          if (this.checkOver === true) {
+            this.checkOver = false;
+          }
+
+          this.betUnderNode.active = true;
+          this.betBarNode.active = true;
+
+          if (this.betOverNode.active === true) {
+            this.betOverNode.active = false;
           }
         }
 
