@@ -1,50 +1,41 @@
-4-3-2024 09:10:35 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
-4-3-2024 09:10:35 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-4-3-2024 09:10:35 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-4-3-2024 09:10:42 - info: [PreviewInEditor] preview process is ready
-4-3-2024 09:10:42 - log: [Scene] meshopt wasm decoder initialized
-4-3-2024 09:10:42 - log: [Scene] [box2d]:box2d wasm lib loaded.
-4-3-2024 09:10:43 - log: [Scene] [bullet]:bullet wasm lib loaded.
-4-3-2024 09:10:43 - log: [Scene] [PHYSICS]: using builtin.
-4-3-2024 09:10:43 - log: [Scene] Cocos Creator v3.8.2
-4-3-2024 09:10:43 - info: [Scene] Forward render pipeline initialized.
-4-3-2024 09:10:43 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
-    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
-    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
-    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
-    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:46:7)
-    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+4-8-2024 10:34:18 - log: Load engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine
+4-8-2024 10:34:19 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+4-8-2024 10:34:19 - log: Register native engine in /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+4-8-2024 10:34:25 - log: [Scene] meshopt wasm decoder initialized
+4-8-2024 10:34:25 - log: [Scene] [box2d]:box2d wasm lib loaded.
+4-8-2024 10:34:25 - log: [Scene] [bullet]:bullet wasm lib loaded.
+4-8-2024 10:34:25 - log: [Scene] [PHYSICS]: using builtin.
+4-8-2024 10:34:26 - log: [Scene] Cocos Creator v3.8.2
+4-8-2024 10:34:26 - info: [Scene] Forward render pipeline initialized.
+4-8-2024 10:34:26 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
     at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 09:10:43 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
-4-3-2024 09:31:47 - log: [PreviewInEditor] meshopt wasm decoder initialized
-4-3-2024 09:31:47 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-4-3-2024 09:31:47 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-4-3-2024 09:31:48 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-4-3-2024 09:31:48 - log: [PreviewInEditor] Cocos Creator v3.8.2
-4-3-2024 09:31:48 - info: [PreviewInEditor] Forward render pipeline initialized.
-4-3-2024 09:31:48 - warn: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
-    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
-    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
-    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
-    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:46:7)
-    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 09:31:48 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-4-3-2024 09:33:07 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-4-3-2024 09:33:08 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-4-3-2024 09:35:52 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-4-3-2024 09:36:51 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
-    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
-    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
-    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
-    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
-    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
-    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 09:37:56 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-4-3-2024 09:38:11 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+4-8-2024 10:34:26 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
     at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
     at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
@@ -52,17 +43,28 @@
     at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
     at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
     at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 09:38:31 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
-at Object.warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
-at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)  
-at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)  
-at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)  
-at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)  
-at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
-4-3-2024 09:52:18 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-4-3-2024 09:53:09 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-4-3-2024 09:53:26 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
-4-3-2024 09:53:52 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+4-8-2024 10:34:26 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+4-8-2024 10:34:26 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 10:34:27 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 10:34:31 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+4-8-2024 10:35:03 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
     at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
     at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
@@ -70,36 +72,36 @@ at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-d
     at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
     at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
     at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 09:57:20 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
-at Object.warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1530)  
-at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)  
-at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)  
-at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)  
-at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)  
-at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)  
-at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)  
-at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)  
-at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12  
-at file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13  
-at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)  
-at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:311:13)  
-at Executor.reload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:194:13)  
-at /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2782  
-at GlobalEnv.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:1284)  
-at loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/script/load-script.ccc:1:2211)  
-at BundleManager.loadScript (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/asset-handler/bundle/index.ccc:1:2788)  
-at BuildTask.initBundleManager (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:7652)  
-at BuildTask.run (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/builder/index.ccc:1:3688)  
-at build (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/index.ccc:1:3733)  
-at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/dist/worker/msg-util.ccc:1:202)
-4-3-2024 10:12:14 - info: [PreviewInEditor] preview process is ready
-4-3-2024 10:12:15 - log: [PreviewInEditor] meshopt wasm decoder initialized
-4-3-2024 10:12:15 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-4-3-2024 10:12:15 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-4-3-2024 10:12:16 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-4-3-2024 10:12:16 - log: [PreviewInEditor] Cocos Creator v3.8.2
-4-3-2024 10:12:16 - info: [PreviewInEditor] Forward render pipeline initialized.
-4-3-2024 10:12:16 - warn: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+4-8-2024 10:35:21 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+4-8-2024 10:35:34 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 10:35:34 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
     at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
     at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
@@ -107,66 +109,26 @@ at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/
     at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
     at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
     at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 10:12:16 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-4-3-2024 10:12:18 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:13:01 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:13:01 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:13:59 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:13:59 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:14:57 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:14:57 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:15:55 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:15:55 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:16:53 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:16:53 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:17:51 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:17:51 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:18:49 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:18:49 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:19:47 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:19:47 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:20:45 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:20:45 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:21:43 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:21:43 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:22:41 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:22:41 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:23:39 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:23:39 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:24:37 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:24:37 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:25:35 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:25:35 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:26:33 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:26:33 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:27:31 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:27:31 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:28:29 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:28:29 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:29:27 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:29:27 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:30:25 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:30:25 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:31:23 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:31:23 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:32:21 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:32:21 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:33:19 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:33:19 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:34:17 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:34:17 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:35:15 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:35:15 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:36:13 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:36:13 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:37:11 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 10:37:11 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 10:37:50 - info: [PreviewInEditor] preview process is ready
-4-3-2024 11:06:47 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:06:47 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:06:47 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:06:47 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:08:15 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+4-8-2024 10:35:34 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 10:35:34 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 10:36:03 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
     at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
     at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
@@ -174,17 +136,35 @@ at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/
     at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
     at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
     at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 11:08:15 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:08:15 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:08:15 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:08:15 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:08:18 - log: [PreviewInEditor] meshopt wasm decoder initialized
-4-3-2024 11:08:18 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-4-3-2024 11:08:19 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-4-3-2024 11:08:19 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-4-3-2024 11:08:19 - log: [PreviewInEditor] Cocos Creator v3.8.2
-4-3-2024 11:08:19 - info: [PreviewInEditor] Forward render pipeline initialized.
-4-3-2024 11:08:19 - warn: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+4-8-2024 10:38:26 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 10:38:26 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
     at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
     at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
     at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
@@ -192,16 +172,980 @@ at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/
     at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
     at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
     at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-4-3-2024 11:08:19 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
-4-3-2024 11:08:21 - log: [PreviewInEditor] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:08:21 - log: [PreviewInEditor] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:08:21 - log: [PreviewInEditor] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:08:21 - log: [PreviewInEditor] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:08:21 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 11:09:04 - log: [PreviewInEditor] Không có dữ liệu tài khoản trong Local Storage!
-4-3-2024 11:09:04 - log: [PreviewInEditor] Cập nhật balance thất bại!
-4-3-2024 11:09:11 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:09:11 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter:z
-4-3-2024 11:09:11 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:09:11 - log: [Scene] Can't find letter definition in texture atlas Unnamed-1.png for letter::
-4-3-2024 11:09:13 - info: [PreviewInEditor] preview process is ready
+4-8-2024 10:38:26 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 10:38:26 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 10:48:16 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 10:48:16 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 10:48:16 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 10:48:16 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 10:48:22 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 10:48:22 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 10:48:22 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 10:48:22 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 11:33:35 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 11:33:35 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 11:33:35 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 11:33:35 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 11:46:22 - warn: Please set the application in Preferences -> Program Manager -> Default Script Editor to better open the script
+4-8-2024 14:23:02 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 14:23:02 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 14:23:02 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 14:23:03 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 14:23:09 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 14:23:09 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 14:23:09 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 14:23:09 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:22:29 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:22:48 - info: [PreviewInEditor] preview process is ready
+4-8-2024 15:22:48 - log: [PreviewInEditor] meshopt wasm decoder initialized
+4-8-2024 15:22:48 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+4-8-2024 15:22:48 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+4-8-2024 15:22:48 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+4-8-2024 15:22:49 - log: [PreviewInEditor] Cocos Creator v3.8.2
+4-8-2024 15:22:49 - info: [PreviewInEditor] Forward render pipeline initialized.
+4-8-2024 15:22:49 - warn: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:22:49 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+4-8-2024 15:22:49 - log: [PreviewInEditor] aaaa
+4-8-2024 15:23:03 - info: [PreviewInEditor] preview process is ready
+4-8-2024 15:23:18 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:23:18 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:23:18 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:23:18 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:23:20 - log: [PreviewInEditor] meshopt wasm decoder initialized
+4-8-2024 15:23:20 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+4-8-2024 15:23:20 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+4-8-2024 15:23:21 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+4-8-2024 15:23:21 - log: [PreviewInEditor] Cocos Creator v3.8.2
+4-8-2024 15:23:21 - info: [PreviewInEditor] Forward render pipeline initialized.
+4-8-2024 15:23:21 - error: [PreviewInEditor] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [PreviewInEditor] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:23:21 - warn: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [PreviewInEditor] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:23:21 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to box2d.
+4-8-2024 15:23:22 - warn: [PreviewInEditor] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [PreviewInEditor] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:23:22 - error: [PreviewInEditor] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [PreviewInEditor] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:23:22 - warn: [PreviewInEditor] Script attached to '@Gamecenter' is missing or invalid.Error: [PreviewInEditor] Script attached to '@Gamecenter' is missing or invalid.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at MissingScript.onLoad (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:35391:11)
+    at eval (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48288:132)
+    at OneOffInvoker.eval [as _invoke] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:46212:9)
+    at OneOffInvoker.invoke (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:46328:16)
+    at NodeActivator.activateNode (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:48340:27)
+4-8-2024 15:23:53 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:23:53 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:23:53 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:23:53 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:36:03 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:36:03 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:36:03 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:36:03 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:36:28 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:36:28 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:36:28 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
+    at EventEmitter.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1518)
+    at EventEmitter.emit (events.js:315:20)
+    at Object.onMessage (electron/js2c/renderer_init.js:93:1117)
+4-8-2024 15:36:28 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
+    at EventEmitter.<anonymous> (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1518)
+    at EventEmitter.emit (events.js:315:20)
+    at Object.onMessage (electron/js2c/renderer_init.js:93:1117)
+4-8-2024 15:36:29 - info: [PreviewInEditor] preview process is ready
+4-8-2024 15:37:25 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:37:25 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:37:25 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:37:25 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:44:48 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:44:48 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:44:48 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:44:48 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 15:56:49 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:56:49 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 15:56:49 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 15:56:49 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 16:01:25 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 16:01:25 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 16:01:25 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 16:01:25 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 16:01:32 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 16:01:32 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 16:01:32 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 16:01:32 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 16:01:58 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/37/file:/Users/waostudio/Desktop/tx2/node_modules/mime-db/index.js:20:19)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./db.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/ca/file:/Users/waostudio/Desktop/tx2/node_modules/mime-types/index.js:31:11)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 16:01:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 16:01:58 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 16:01:58 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 17:20:11 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./lib/mappingTable.json
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:114:23)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/2c/file:/Users/waostudio/Desktop/tx2/node_modules/tr46/index.js:16:21)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/9d/file:/Users/waostudio/Desktop/tx2/node_modules/whatwg-url/lib/url-state-machine.js:21:15)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Unresolved specifier ./lib/mappingTable.json
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at CjsLoader._require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:42:14)
+    at originalRequire (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:105:36)
+    at require (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:112:24)
+    at factory (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/9d/file:/Users/waostudio/Desktop/tx2/node_modules/whatwg-url/lib/url-state-machine.js:21:15)
+    at CjsLoader._load (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:78:9)
+    at CjsLoader._tryModuleLoad (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/a0/cce:/internal/ml/cjs-loader.mjs:63:18)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:492)
+    at Logger.record (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5358)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3452)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:359:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:87:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 17:20:11 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+4-8-2024 17:20:11 - warn: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPevError: [Scene] Missing class: 3efdey09/lOSoQ0VrXtOPev
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2381)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:104373:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60162:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60116:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60283:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60144:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:60122:29)
+4-8-2024 17:20:11 - error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+Error: [Scene] Script "3efdey09/lOSoQ0VrXtOPev" attached to "@Gamecenter" is missing or invalid. Detailed information:
+Node path: "@Gamecenter"
+Script UUID: "3efdecb4-f7f9-4e4a-8434-56b5ed38f7af"
+Class ID: "3efdey09/lOSoQ0VrXtOPev"
+
+    at report (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1393)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1606)
+4-8-2024 18:29:06 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160729:12)
+    at warnID (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:160911:5)
+    at _checkObsoleteByName (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166324:7)
+    at __checkObsolete__ (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:166343:7)
+    at Object.execute (file:///Users/waostudio/Desktop/tx2/temp/programming/packer-driver/targets/editor/chunks/1c/1cbfbf19ae72a2e17f73eea1e52a478143b72af6.js:47:7)
+    at doExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)

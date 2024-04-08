@@ -406,6 +406,11 @@ export class GameC extends Component {
   private Effect3: Node;
 
   @property({
+    type: Node,
+  })
+  private warningNotEn: Node;
+
+  @property({
     type: AudioController,
   })
   private AudioController: AudioController;
@@ -493,7 +498,7 @@ export class GameC extends Component {
       this.balanceUser = userInfo.balance;
     }
     this.AudioController.onAudio(2);
-
+    this.cloneBalanUser = this.balanceUser;
     // this.createGrid();
 
     this.listButton = [
@@ -508,16 +513,26 @@ export class GameC extends Component {
     for (let i = 0; i < this.listButton.length; i++) {
       let button = this.listButton[i];
       button.node.on(Button.EventType.CLICK, () => {
+        console.log(this.cloneBalanUser);
+        console.log(
+          this.totalUserBetOver + this.totalUserBetUnder + this.listScore[i]
+        );
+
         if (
           this.cloneBalanUser >= this.listScore[i] &&
-          this.cloneBalanUser >
-            this.totalUserBetOver + this.totalUserBetUnder &&
+          this.cloneBalanUser >=
+            this.totalUserBetOver +
+              this.totalUserBetUnder +
+              this.listScore[i] &&
           this.balanceUser !== 0 &&
           this.gameEnd === false
         ) {
           this.addScore(this.listScore[i]);
         } else {
-          console.log("khong du tien");
+          this.warningNotEn.active = true;
+          setTimeout(() => {
+            this.warningNotEn.active = false;
+          }, 1000);
         }
       });
     }
@@ -744,7 +759,7 @@ export class GameC extends Component {
 
           this.plate.getComponent(Animation).off(Animation.EventType.FINISHED);
 
-          if (this.sum < 10) {
+          if (this.sum <= 10) {
             this.createGrid();
             this.updateResults(0);
             this.displayImagesResult();
@@ -827,6 +842,8 @@ export class GameC extends Component {
           this.totalUserBetUnder = 0;
           this.userValuebetOver = 0;
           this.userValuebetUnder = 0;
+          this.clonetotalUserBetOver = 0;
+          this.clonetotalUserBetUnder = 0;
 
           this.AudioController.onAudio(2);
 
@@ -1382,10 +1399,11 @@ export class GameC extends Component {
       this.totalUserBetOver =
         this.totalUserBetOver - this.clonetotalUserBetOver;
       this.clonetotalUserBetOver = 0;
-      // this.totalUserBetUnder =
-      //   this.totalUserBetUnder - this.clonetotalUserBetUnder;
-      // this.clonetotalUserBetUnder = 0;
-      // this.UnderLableValueUser.string = this.totalUserBetOver.toString();
+
+      this.totalUserBetUnder =
+        this.totalUserBetUnder - this.clonetotalUserBetUnder;
+      this.clonetotalUserBetUnder = 0;
+      this.UnderLableValueUser.string = this.userValuebetUnder.toString();
       this.OverLableValueUser.string = this.userValuebetOver.toString();
       console.log(this.totalUserBetOver);
     }

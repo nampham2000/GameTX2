@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, Label, math, Node, tween, Vec3, Animation, SpriteFrame, Sprite, EditBox, instantiate, Prefab, Graphics, Color, AudioController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _dec34, _dec35, _dec36, _dec37, _dec38, _dec39, _dec40, _dec41, _dec42, _dec43, _dec44, _dec45, _dec46, _dec47, _dec48, _dec49, _dec50, _dec51, _dec52, _dec53, _dec54, _dec55, _dec56, _dec57, _dec58, _dec59, _dec60, _dec61, _dec62, _dec63, _dec64, _dec65, _dec66, _dec67, _dec68, _dec69, _dec70, _dec71, _dec72, _dec73, _dec74, _dec75, _dec76, _dec77, _dec78, _dec79, _dec80, _dec81, _dec82, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32, _descriptor33, _descriptor34, _descriptor35, _descriptor36, _descriptor37, _descriptor38, _descriptor39, _descriptor40, _descriptor41, _descriptor42, _descriptor43, _descriptor44, _descriptor45, _descriptor46, _descriptor47, _descriptor48, _descriptor49, _descriptor50, _descriptor51, _descriptor52, _descriptor53, _descriptor54, _descriptor55, _descriptor56, _descriptor57, _descriptor58, _descriptor59, _descriptor60, _descriptor61, _descriptor62, _descriptor63, _descriptor64, _descriptor65, _descriptor66, _descriptor67, _descriptor68, _descriptor69, _descriptor70, _descriptor71, _descriptor72, _descriptor73, _descriptor74, _descriptor75, _descriptor76, _descriptor77, _descriptor78, _descriptor79, _descriptor80, _descriptor81, _crd, ccclass, property, GameC;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Component, Label, math, Node, tween, Vec3, Animation, SpriteFrame, Sprite, EditBox, instantiate, Prefab, Graphics, Color, AudioController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _dec16, _dec17, _dec18, _dec19, _dec20, _dec21, _dec22, _dec23, _dec24, _dec25, _dec26, _dec27, _dec28, _dec29, _dec30, _dec31, _dec32, _dec33, _dec34, _dec35, _dec36, _dec37, _dec38, _dec39, _dec40, _dec41, _dec42, _dec43, _dec44, _dec45, _dec46, _dec47, _dec48, _dec49, _dec50, _dec51, _dec52, _dec53, _dec54, _dec55, _dec56, _dec57, _dec58, _dec59, _dec60, _dec61, _dec62, _dec63, _dec64, _dec65, _dec66, _dec67, _dec68, _dec69, _dec70, _dec71, _dec72, _dec73, _dec74, _dec75, _dec76, _dec77, _dec78, _dec79, _dec80, _dec81, _dec82, _dec83, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _descriptor15, _descriptor16, _descriptor17, _descriptor18, _descriptor19, _descriptor20, _descriptor21, _descriptor22, _descriptor23, _descriptor24, _descriptor25, _descriptor26, _descriptor27, _descriptor28, _descriptor29, _descriptor30, _descriptor31, _descriptor32, _descriptor33, _descriptor34, _descriptor35, _descriptor36, _descriptor37, _descriptor38, _descriptor39, _descriptor40, _descriptor41, _descriptor42, _descriptor43, _descriptor44, _descriptor45, _descriptor46, _descriptor47, _descriptor48, _descriptor49, _descriptor50, _descriptor51, _descriptor52, _descriptor53, _descriptor54, _descriptor55, _descriptor56, _descriptor57, _descriptor58, _descriptor59, _descriptor60, _descriptor61, _descriptor62, _descriptor63, _descriptor64, _descriptor65, _descriptor66, _descriptor67, _descriptor68, _descriptor69, _descriptor70, _descriptor71, _descriptor72, _descriptor73, _descriptor74, _descriptor75, _descriptor76, _descriptor77, _descriptor78, _descriptor79, _descriptor80, _descriptor81, _descriptor82, _crd, ccclass, property, GameC;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -206,10 +206,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       }), _dec78 = property({
         type: Node
       }), _dec79 = property({
+        type: Node
+      }), _dec80 = property({
         type: _crd && AudioController === void 0 ? (_reportPossibleCrUseOfAudioController({
           error: Error()
         }), AudioController) : AudioController
-      }), _dec80 = property(Node), _dec81 = property(Prefab), _dec82 = property(Prefab), _dec(_class = (_class2 = class GameC extends Component {
+      }), _dec81 = property(Node), _dec82 = property(Prefab), _dec83 = property(Prefab), _dec(_class = (_class2 = class GameC extends Component {
         constructor() {
           super(...arguments);
 
@@ -369,7 +371,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "Effect3", _descriptor77, this);
 
-          _initializerDefineProperty(this, "AudioController", _descriptor78, this);
+          _initializerDefineProperty(this, "warningNotEn", _descriptor78, this);
+
+          _initializerDefineProperty(this, "AudioController", _descriptor79, this);
 
           this.totalUserBetUnder = 0;
           this.totalUserBetOver = 0;
@@ -419,11 +423,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.jumpToNextColumn = false;
           this.lineGraphicsArray = [];
 
-          _initializerDefineProperty(this, "pref", _descriptor79, this);
+          _initializerDefineProperty(this, "pref", _descriptor80, this);
 
-          _initializerDefineProperty(this, "Over", _descriptor80, this);
+          _initializerDefineProperty(this, "Over", _descriptor81, this);
 
-          _initializerDefineProperty(this, "Under", _descriptor81, this);
+          _initializerDefineProperty(this, "Under", _descriptor82, this);
 
           // private numRows: number = 6;
           // private numCols: number = 20;
@@ -446,17 +450,24 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             this.balanceUser = userInfo.balance;
           }
 
-          this.AudioController.onAudio(2); // this.createGrid();
+          this.AudioController.onAudio(2);
+          this.cloneBalanUser = this.balanceUser; // this.createGrid();
 
           this.listButton = [this.value1k, this.value10k, this.value50k, this.value100k, this.value500k, this.value10M, this.value50M];
 
           var _loop = function _loop(i) {
             var button = _this.listButton[i];
             button.node.on(Button.EventType.CLICK, () => {
-              if (_this.cloneBalanUser >= _this.listScore[i] && _this.cloneBalanUser > _this.totalUserBetOver + _this.totalUserBetUnder && _this.balanceUser !== 0 && _this.gameEnd === false) {
+              console.log(_this.cloneBalanUser);
+              console.log(_this.totalUserBetOver + _this.totalUserBetUnder + _this.listScore[i]);
+
+              if (_this.cloneBalanUser >= _this.listScore[i] && _this.cloneBalanUser >= _this.totalUserBetOver + _this.totalUserBetUnder + _this.listScore[i] && _this.balanceUser !== 0 && _this.gameEnd === false) {
                 _this.addScore(_this.listScore[i]);
               } else {
-                console.log("khong du tien");
+                _this.warningNotEn.active = true;
+                setTimeout(() => {
+                  _this.warningNotEn.active = false;
+                }, 1000);
               }
             });
           };
@@ -654,7 +665,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               this.plate.active = false;
               this.plate.getComponent(Animation).off(Animation.EventType.FINISHED);
 
-              if (this.sum < 10) {
+              if (this.sum <= 10) {
                 this.createGrid();
                 this.updateResults(0);
                 this.displayImagesResult();
@@ -724,6 +735,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
                 this.totalUserBetUnder = 0;
                 this.userValuebetOver = 0;
                 this.userValuebetUnder = 0;
+                this.clonetotalUserBetOver = 0;
+                this.clonetotalUserBetUnder = 0;
                 this.AudioController.onAudio(2);
                 this.UnderLableValueUser.string = this.totalUserBetUnder.toString();
                 this.OverLableValueUser.string = this.totalUserBetOver.toString();
@@ -1293,11 +1306,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         CancelBet() {
           if (this.gameEnd === false) {
             this.totalUserBetOver = this.totalUserBetOver - this.clonetotalUserBetOver;
-            this.clonetotalUserBetOver = 0; // this.totalUserBetUnder =
-            //   this.totalUserBetUnder - this.clonetotalUserBetUnder;
-            // this.clonetotalUserBetUnder = 0;
-            // this.UnderLableValueUser.string = this.totalUserBetOver.toString();
-
+            this.clonetotalUserBetOver = 0;
+            this.totalUserBetUnder = this.totalUserBetUnder - this.clonetotalUserBetUnder;
+            this.clonetotalUserBetUnder = 0;
+            this.UnderLableValueUser.string = this.userValuebetUnder.toString();
             this.OverLableValueUser.string = this.userValuebetOver.toString();
             console.log(this.totalUserBetOver);
           }
@@ -1841,24 +1853,29 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor78 = _applyDecoratedDescriptor(_class2.prototype, "AudioController", [_dec79], {
+      }), _descriptor78 = _applyDecoratedDescriptor(_class2.prototype, "warningNotEn", [_dec79], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor79 = _applyDecoratedDescriptor(_class2.prototype, "pref", [_dec80], {
+      }), _descriptor79 = _applyDecoratedDescriptor(_class2.prototype, "AudioController", [_dec80], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: null
-      }), _descriptor80 = _applyDecoratedDescriptor(_class2.prototype, "Over", [_dec81], {
+      }), _descriptor80 = _applyDecoratedDescriptor(_class2.prototype, "pref", [_dec81], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor81 = _applyDecoratedDescriptor(_class2.prototype, "Over", [_dec82], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor81 = _applyDecoratedDescriptor(_class2.prototype, "Under", [_dec82], {
+      }), _descriptor82 = _applyDecoratedDescriptor(_class2.prototype, "Under", [_dec83], {
         configurable: true,
         enumerable: true,
         writable: true,

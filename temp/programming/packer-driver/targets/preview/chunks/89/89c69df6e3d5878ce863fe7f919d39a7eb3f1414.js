@@ -31,12 +31,20 @@ System.register(["cc"], function (_export, _context) {
       ({
         ccclass,
         property
-      } = _decorator);
+      } = _decorator); // Import type models for Appwrite
+      // const client: Client = new Client();
+      // console.log(client);
+      // client
+      //   .setEndpoint("https://cloud.appwrite.io/v1")
+      //   .setProject("65fa5ef5da9d85eabe8a"); // Replace with your project ID
+      // export const account: Account = new Account(client);
+      // export const database: Databases = new Databases(client);
 
       _export("GameCenter", GameCenter = (_dec = ccclass("GameCenter"), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(EditBox), _dec5 = property(EditBox), _dec6 = property(EditBox), _dec7 = property(EditBox), _dec8 = property(EditBox), _dec9 = property(Node), _dec10 = property(Node), _dec11 = property(Node), _dec(_class = (_class2 = class GameCenter extends Component {
         constructor() {
           super(...arguments);
 
+          // const: Client = new Client();
           _initializerDefineProperty(this, "loginTable", _descriptor, this);
 
           _initializerDefineProperty(this, "resTable", _descriptor2, this);
@@ -61,6 +69,8 @@ System.register(["cc"], function (_export, _context) {
         }
 
         start() {
+          // const client: Client = new Client();
+          // console.log("aaaa");
           // Kiểm tra xem có thông tin tài khoản đã lưu trong Local Storage không
           var storedAccounts = localStorage.getItem("registeredAccounts");
 

@@ -1,0 +1,168 @@
+4-8-2024 09:51:35-log: Cannot access game frame or container.
+4-8-2024 09:51:35-debug: asset-db:require-engine-code (591ms)
+4-8-2024 09:51:35-log: meshopt wasm decoder initialized
+4-8-2024 09:51:35-log: [box2d]:box2d wasm lib loaded.
+4-8-2024 09:51:36-log: [bullet]:bullet wasm lib loaded.
+4-8-2024 09:51:36-log: Cocos Creator v3.8.2
+4-8-2024 09:51:38-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:108.18MB, end 234.02MB, increase: 125.85MB
+4-8-2024 09:51:36-debug: [Assets Memory track]: asset-db-plugin-register: programming start:106.21MB, end 107.66MB, increase: 1.44MB
+4-8-2024 09:51:38-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:105.54MB, end 236.83MB, increase: 131.29MB
+4-8-2024 09:51:36-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:20.94MB, end 105.54MB, increase: 84.60MB
+4-8-2024 09:51:38-debug: [Assets Memory track]: asset-db-plugin-enable: project start:107.87MB, end 236.83MB, increase: 128.95MB
+4-8-2024 09:51:38-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:107.71MB, end 236.82MB, increase: 129.12MB
+4-8-2024 09:51:38-debug: run package(extension) handler(enable) start
+4-8-2024 09:51:38-debug: run package(extension) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(hierarchy) handler(enable) start
+4-8-2024 09:51:38-debug: run package(hierarchy) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(inspector) handler(enable) start
+4-8-2024 09:51:38-debug: run package(lightmap) handler(enable) start
+4-8-2024 09:51:38-debug: run package(lightmap) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(node-library) handler(enable) start
+4-8-2024 09:51:38-debug: run package(node-library) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(package-asset) handler(enable) start
+4-8-2024 09:51:38-debug: run package(package-asset) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(process) handler(enable) start
+4-8-2024 09:51:38-debug: run package(process) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(reference-image) handler(enable) start
+4-8-2024 09:51:38-debug: run package(reference-image) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(inspector) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(reflection-probe) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(engine-extends) handler(enable) start
+4-8-2024 09:51:38-debug: run package(engine-extends) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(adsense-h5g-plugin) handler(enable) start
+4-8-2024 09:51:38-debug: run package(adsense-h5g-plugin) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(alipay-mini-game) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(alipay-mini-game) handler(enable) start
+4-8-2024 09:51:38-debug: run package(android) handler(enable) start
+4-8-2024 09:51:38-debug: run package(android) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(light-probe) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(light-probe) handler(enable) start
+4-8-2024 09:51:38-debug: run package(certificate) handler(enable) start
+4-8-2024 09:51:38-debug: run package(certificate) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(bytedance-mini-game) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(channel-upload-tools) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(fb-instant-games) handler(enable) start
+4-8-2024 09:51:38-debug: run package(fb-instant-games) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(huawei-agc) handler(enable) start
+4-8-2024 09:51:38-debug: run package(huawei-agc) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(huawei-quick-game) handler(enable) start
+4-8-2024 09:51:38-debug: run package(reflection-probe) handler(enable) start
+4-8-2024 09:51:38-debug: run package(bytedance-mini-game) handler(enable) start
+4-8-2024 09:51:38-debug: run package(huawei-quick-game) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(linux) handler(enable) start
+4-8-2024 09:51:38-debug: run package(linux) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(mac) handler(enable) start
+4-8-2024 09:51:38-debug: run package(mac) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(native) handler(enable) start
+4-8-2024 09:51:38-debug: run package(native) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(ohos) handler(enable) start
+4-8-2024 09:51:38-debug: run package(ohos) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(openharmony) handler(enable) start
+4-8-2024 09:51:38-debug: run package(openharmony) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(oppo-mini-game) handler(enable) start
+4-8-2024 09:51:38-debug: run package(oppo-mini-game) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(runtime-dev-tools) handler(enable) start
+4-8-2024 09:51:38-debug: run package(runtime-dev-tools) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(taobao-creative-app) handler(enable) start
+4-8-2024 09:51:38-debug: run package(ios) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(taobao-creative-app) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(taobao-mini-game) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(vivo-mini-game) handler(enable) start
+4-8-2024 09:51:38-debug: run package(vivo-mini-game) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(web-desktop) handler(enable) start
+4-8-2024 09:51:38-debug: run package(web-desktop) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(web-mobile) handler(enable) start
+4-8-2024 09:51:38-debug: run package(web-mobile) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(wechatgame) handler(enable) start
+4-8-2024 09:51:38-debug: run package(wechatgame) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(wechatprogram) handler(enable) start
+4-8-2024 09:51:38-debug: run package(wechatprogram) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(windows) handler(enable) start
+4-8-2024 09:51:38-debug: run package(windows) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(xiaomi-quick-game) handler(enable) start
+4-8-2024 09:51:38-debug: run package(taobao-mini-game) handler(enable) start
+4-8-2024 09:51:38-debug: run package(cocos-service) handler(enable) start
+4-8-2024 09:51:38-debug: run package(cocos-service) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(im-plugin) handler(enable) start
+4-8-2024 09:51:38-debug: run package(im-plugin) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(fix-device) handler(enable) start
+4-8-2024 09:51:38-debug: run package(fix-device) handler(enable) success!
+4-8-2024 09:51:38-debug: run package(placeholder) handler(enable) start
+4-8-2024 09:51:38-debug: run package(placeholder) handler(enable) success!
+4-8-2024 09:51:38-debug: asset-db:worker-init: initPlugin (1802ms)
+4-8-2024 09:51:38-debug: run package(ios) handler(enable) start
+4-8-2024 09:51:38-debug: run package(channel-upload-tools) handler(enable) start
+4-8-2024 09:51:38-debug: run package(xiaomi-quick-game) handler(enable) success!
+4-8-2024 09:51:38-debug: [Assets Memory track]: asset-db:worker-init start:20.94MB, end 235.75MB, increase: 214.82MB
+4-8-2024 09:51:38-debug: Run asset db hook engine-extends:beforePreStart ...
+4-8-2024 09:51:38-debug: Run asset db hook engine-extends:beforePreStart success!
+4-8-2024 09:51:38-debug: Run asset db hook programming:beforePreStart success!
+4-8-2024 09:51:38-debug: Run asset db hook programming:beforePreStart ...
+4-8-2024 09:51:38-debug: asset-db:worker-init (3400ms)
+4-8-2024 09:51:38-debug: asset-db-hook-programming-beforePreStart (278ms)
+4-8-2024 09:51:38-debug: asset-db-hook-engine-extends-beforePreStart (278ms)
+4-8-2024 09:51:38-debug: Preimport db internal success
+4-8-2024 09:51:38-debug: Preimport db assets success
+4-8-2024 09:51:38-debug: starting packer-driver...
+4-8-2024 09:51:38-debug: Run asset db hook programming:afterPreStart ...
+4-8-2024 09:51:38-debug: initialize scripting environment...
+4-8-2024 09:51:38-debug: Set detail map pack:///resolution-detail-map.json: {}
+4-8-2024 09:51:38-debug: [Assets Memory track]: asset-db:worker-init: preStart start:235.76MB, end 254.87MB, increase: 19.11MB
+4-8-2024 09:51:38-debug: Start up the 'internal' database...
+4-8-2024 09:51:38-debug: Run asset db hook engine-extends:afterPreStart success!
+4-8-2024 09:51:38-debug: Run asset db hook engine-extends:afterPreStart ...
+4-8-2024 09:51:38-debug: Run asset db hook programming:afterPreStart success!
+4-8-2024 09:51:38-debug: asset-db-hook-programming-afterPreStart (233ms)
+4-8-2024 09:51:38-debug: asset-db:worker-effect-data-processing (18ms)
+4-8-2024 09:51:38-debug: asset-db-hook-engine-extends-afterPreStart (18ms)
+4-8-2024 09:51:38-debug: Start up the 'assets' database...
+4-8-2024 09:51:39-debug: asset-db:worker-startup-database[internal] (383ms)
+4-8-2024 09:51:39-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:256.06MB, end 257.07MB, increase: 1.00MB
+4-8-2024 09:51:39-debug: [Assets Memory track]: asset-db:worker-init: startup start:254.87MB, end 257.07MB, increase: 2.20MB
+4-8-2024 09:51:39-debug: asset-db:worker-startup-database[assets] (355ms)
+4-8-2024 09:51:39-debug: asset-db:start-database (647ms)
+4-8-2024 09:51:39-debug: asset-db:ready (5309ms)
+4-8-2024 09:51:39-debug: init worker message success
+4-8-2024 09:51:39-debug: [Build Memory track]: builder:worker-init start:254.08MB, end 266.91MB, increase: 12.83MB
+4-8-2024 09:51:39-debug: programming:execute-script (4ms)
+4-8-2024 09:51:39-debug: builder:worker-init (274ms)
+4-8-2024 09:51:40-debug: programming:execute-script (13ms)
+4-8-2024 09:52:46-debug: refresh db internal success
+4-8-2024 09:52:46-debug: refresh db assets success
+4-8-2024 09:52:46-debug: Run asset db hook engine-extends:afterRefresh ...
+4-8-2024 09:52:46-debug: Run asset db hook engine-extends:afterRefresh success!
+4-8-2024 09:52:46-debug: asset-db:refresh-all-database (67ms)
+4-8-2024 09:55:02-debug: refresh db internal success
+4-8-2024 09:55:02-debug: refresh db assets success
+4-8-2024 09:55:02-debug: Run asset db hook engine-extends:afterRefresh success!
+4-8-2024 09:55:02-debug: Run asset db hook engine-extends:afterRefresh ...
+4-8-2024 09:55:02-debug: asset-db:refresh-all-database (305ms)
+4-8-2024 09:55:02-debug: asset-db:worker-effect-data-processing (5ms)
+4-8-2024 09:55:02-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+4-8-2024 10:30:54-debug: refresh db internal success
+4-8-2024 10:30:54-debug: %cImport%c: /Users/waostudio/Desktop/tx2/assets/Scripts/GameCenter.tsbackground: #aaff85; color: #000;color: #000;
+4-8-2024 10:30:54-debug: refresh db assets success
+4-8-2024 10:30:54-debug: Run asset db hook engine-extends:afterRefresh ...
+4-8-2024 10:30:54-debug: Run asset db hook engine-extends:afterRefresh success!
+4-8-2024 10:30:54-debug: asset-db:refresh-all-database (922ms)
+4-8-2024 10:30:54-debug: asset-db:worker-effect-data-processing (1ms)
+4-8-2024 10:30:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+4-8-2024 10:32:46-debug: refresh db internal success
+4-8-2024 10:32:46-debug: %cImport%c: /Users/waostudio/Desktop/tx2/assets/Scripts/GameCenter.tsbackground: #aaff85; color: #000;color: #000;
+4-8-2024 10:32:46-debug: refresh db assets success
+4-8-2024 10:32:46-debug: Run asset db hook engine-extends:afterRefresh ...
+4-8-2024 10:32:46-debug: Run asset db hook engine-extends:afterRefresh success!
+4-8-2024 10:32:46-debug: asset-db:refresh-all-database (68ms)
+4-8-2024 10:32:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+4-8-2024 10:33:26-debug: refresh db internal success
+4-8-2024 10:33:26-debug: %cImport%c: /Users/waostudio/Desktop/tx2/assets/Scripts/GameCenter.tsbackground: #aaff85; color: #000;color: #000;
+4-8-2024 10:33:26-debug: refresh db assets success
+4-8-2024 10:33:26-debug: Run asset db hook engine-extends:afterRefresh ...
+4-8-2024 10:33:26-debug: Run asset db hook engine-extends:afterRefresh success!
+4-8-2024 10:33:26-debug: asset-db:refresh-all-database (66ms)
+4-8-2024 10:34:09-debug: refresh db internal success
+4-8-2024 10:34:09-debug: %cImport%c: /Users/waostudio/Desktop/tx2/assets/Scripts/GameCenter.tsbackground: #aaff85; color: #000;color: #000;
+4-8-2024 10:34:09-debug: refresh db assets success
+4-8-2024 10:34:09-debug: Run asset db hook engine-extends:afterRefresh ...
+4-8-2024 10:34:09-debug: Run asset db hook engine-extends:afterRefresh success!
+4-8-2024 10:34:09-debug: asset-db:refresh-all-database (52ms)

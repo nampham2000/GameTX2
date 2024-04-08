@@ -1,5 +1,19 @@
 import { _decorator, Component, Node, EditBox, director, Animation } from "cc";
 const { ccclass, property } = _decorator;
+import { Client, Databases, Account } from "appwrite";
+// Import type models for Appwrite
+import { type Models } from "appwrite";
+
+// const client: Client = new Client();
+
+// console.log(client);
+
+// client
+//   .setEndpoint("https://cloud.appwrite.io/v1")
+//   .setProject("65fa5ef5da9d85eabe8a"); // Replace with your project ID
+
+// export const account: Account = new Account(client);
+// export const database: Databases = new Databases(client);
 
 interface AccountInfo {
   username: string;
@@ -9,6 +23,7 @@ interface AccountInfo {
 
 @ccclass("GameCenter")
 export class GameCenter extends Component {
+  // const: Client = new Client();
   @property(Node)
   private loginTable: Node = null;
 
@@ -41,7 +56,10 @@ export class GameCenter extends Component {
 
   private registeredAccounts: AccountInfo[] = [];
 
-  protected start(): void {
+  start(): void {
+    // const client: Client = new Client();
+    // console.log("aaaa");
+
     // Kiểm tra xem có thông tin tài khoản đã lưu trong Local Storage không
     const storedAccounts = localStorage.getItem("registeredAccounts");
     if (storedAccounts) {
